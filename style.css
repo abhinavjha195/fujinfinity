@@ -390,7 +390,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .blog-sec .blog-info .btn-a:hover{color: #09d0bc; background-size: 100% 1px;}
   .blog-sec .blog-info .btn-a i{padding: 0 0 0 3px;}
 
-.contact-wrap{position: relative; z-index:3; padding: 70px 0 40px;}  
+.contact-wrap{position: relative; z-index:3; padding: 20px 0 40px;}  
   .contact-wrap h2{color:#000; position: relative; text-transform:capitalize; margin: 0 0 35px;}
   .contact-wrap h2 span{color:#033d87; display: block; font-size: 16px; text-transform: uppercase; margin: 10px 0 0;}
   .contact-wrap h5{color:#000;}
@@ -444,9 +444,9 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .newsletter form .form-control:-moz-placeholder {color: #999;}
   .newsletter form .form-group{margin:0 0 15px;}
   
-  .icon-ft{text-align: center;}
-  .icon-ft a{color: #fff; display: inline-block; margin: 0 0 15px;}
-  .icon-ft i{margin: 0 0 0 3px; background: #033d87; height: 40px; width: 40px; line-height: 40px; border-radius: 4px; font-size: 20px;}
+  .icon-ft{}
+  .icon-ft a{color: #fff; display: inline-block; margin: 0 3px 10px 0;}
+  .icon-ft i{margin: 0 0 0 3px; background: #033d87; height: 40px; width: 40px; line-height: 40px; border-radius: 4px; font-size: 20px; text-align: center;}
   .icon-ft i:hover{background: none; color: #033d87; transition:0.8s ease-in-out; -webkit-transition:all 0.8s ease-in-out; -moz-transition:all 0.8s ease-in-out; -ms-transition:all 0.8s ease-in-out; -o-transition:all 0.8s ease-in-out;}
   
   .ft-bottom{background: #033d87; margin:30px 0 0; color:#fff; padding:15px 0 0; position:relative; z-index:2;}
