@@ -687,6 +687,7 @@ span.sr-only { position: absolute; }
    .banner .right-grid figure{padding:0;}
    .banner .right-grid figure::before{width: 90%; height: 70%;}
    .banner .slider-img{height: auto; object-fit: cover; object-position: center center;}
+   .slide-text{padding: 150px 0 50px;}
    .slide-text > div{padding: 0;}
    .slide-text h1{font-size: 34px; line-height: 44px; margin: 0 0 10px;}
    .slide-text p{font-size: 14px; line-height: 22px; margin: 0 0 15px;}
@@ -748,7 +749,7 @@ span.sr-only { position: absolute; }
 @media (min-width: 1200px) and (max-width: 1370px) { 
     
    .container{max-width: 1220px;}
-   .header nav .navbar .links li{margin: 0 5px;}
+
    .header nav .navbar .links li .arrow{margin: 2px 0 0 3px;}
 
 }
