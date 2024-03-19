@@ -213,10 +213,10 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .banner .slide button.left>span:nth-child(1){left: 45%;}
   .banner .slide button.right>span:nth-child(1){right: 45%;}
   .banner .container{position:static;}
-  .banner .right-grid{padding: 100px 15px 0;}
-  .banner .right-grid figure{margin: 0; position: relative; padding: 30px 12% 0;}
-  .banner .right-grid figure:before{content: ''; background-image: url(images/shape-01.png); background-position: center center; background-repeat: no-repeat; background-size: cover; position: absolute; left: 0; right: 0; margin: 0 auto; top: 0; width: 81%; height: 80%;}
-  .banner .right-grid figure img{position: relative; z-index: 2;}
+  .banner .right-grid{padding: 100px 15px 50px;}
+  .banner .right-grid figure{margin: 0; position: relative; padding: 50px 0 0;}
+  .banner .right-grid figure:before{content: ''; background-image: url(images/shape-01.png); background-position: center center; background-repeat: no-repeat; background-size: cover; position: absolute; left: 0; right: 0; margin: 0 auto; top: 20px; width: 60%; height: 70%;}
+  .banner .right-grid figure img{-webkit-border-radius: 0 0 30px 30px; -moz-border-radius: 0 0 30px 30px; border-radius: 0 0 30px 30px; position: relative; z-index: 2;}
   
   .slide-text{position: relative; padding: 120px 0 50px;}
   .slide-text h1{padding: 0; color: #000; font-style: normal; margin: 0 0 40px; -webkit-animation-delay: 0.7s; animation-delay: 0.7s;}
