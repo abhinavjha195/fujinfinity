@@ -261,17 +261,18 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .tag-sec .tw-coll:last-child .info-content:after{display: none;}
   .tag-sec .info-content{position: relative; margin: 0;}
   .tag-sec .info-content::after{content: ""; background: #fff; position: absolute; right: -15px; top: 0; height: 100%; width: 1px; opacity: 0.2;}
-  .tag-sec .info-content .counter-box{position: relative; z-index: 2;}
-  .tag-sec .info-content .span{position: relative; color: #fff; font-size: 26px; background: #00a0c8; vertical-align: middle; font-family: 'MonaSansExpandedSemiBold'; line-height: 28px; padding: 20px 0 20px 20px; border-radius: 8px 0 0 8px; display: inline-block;}
-  .tag-sec .info-content .span:nth-child(2){border-radius: 0 8px 8px 0 !important; padding: 20px 20px 20px 0;}
+  .tag-sec .info-content .counter-box{position: relative; z-index: 2;background: #00a0c8;padding: 20px 0 20px 0px; border-radius: 8px;}
+  .tag-sec .info-content .counter-box p{text-align: center;color: #fff;}
+  .tag-sec .info-content .span{position: relative; color: #fff; font-size: 26px; vertical-align: middle; font-family: 'MonaSansExpandedSemiBold'; line-height: 28px;  display: inline-block;}
+  .tag-sec .info-content .span:nth-child(2){border-radius: 0 8px 8px 0 !important; padding: 10px 0px 10px 0;}
   .tag-sec .info-content h4{position: relative; color: #000; margin: 15px 0 0;}
   .tag-sec .info-content h4 span{font-family: 'MonaSansExpandedRegular'; display: block; font-size: 14px; color: #000; margin: 0 0 10px;}
   .tag-sec .info-content p{margin: 0;}
   .tag-sec .counter{}
-  .tag-sec .tw-coll:nth-child(2) .info-content .span{background: #09d0bc; color: #fff !important;}
-  .tag-sec .tw-coll:nth-child(3) .info-content .span{background: #ffc848; color: #fff !important;}
-  .tag-sec .tw-coll:nth-child(4) .info-content .span{background: #fe484e; color: #fff !important;}
-  .tag-sec .tw-coll:nth-child(5) .info-content .span{background: #09d0bc; color: #fff !important;}
+  .tag-sec .tw-coll:nth-child(2) .counter-box{background: #09d0bc; color: #fff !important;}
+  .tag-sec .tw-coll:nth-child(3) .counter-box{background: #ffc848; color: #fff !important;}
+  .tag-sec .tw-coll:nth-child(4) .counter-box{background: #fe484e; color: #fff !important;}
+  .tag-sec .tw-coll:nth-child(5) .counter-box{background: #09d0bc; color: #fff !important;}
   
 .maping{margin: 0 auto;}
   .maping figure{padding: 0;}
@@ -279,34 +280,36 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 .scroll-sec{position: relative;} 
   .scroll-sec h2{color:#000; position: relative; text-transform:capitalize; margin: 0 0 20px;}
   .scroll-sec h2 span{color:#00a0c8; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
-  .scroll-sec h3{color:#fff; position: relative; text-transform:capitalize; margin: 0; padding: 130px 0 0 0; color:#00a0c8; width: 20%; text-align: center;}
-  .scroll-sec h3::before{content: ''; background-image: url(images/awards-icon.png); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: scroll; height: 105px; width: 90px; position: absolute; left: 0; top: 0; right: 0; margin: 0 auto;}
-  .scroll-sec h3:before{content: '';}
+  .scroll-sec h3{color:#fff; position: relative; text-transform:capitalize; margin: 0; padding: 0px 20px 0 0; color:#00a0c8;  text-align: center;}
+  .scroll-sec ul::before {content: '';background-image: url(images/awards-icon.png);background-repeat: no-repeat;background-position: center center;background-size: cover;background-attachment: scroll;height: 207px;width: 177px;position: absolute;right: -0;top: 0;}
   .scroll-sec h3 span{color:#fff; display: block; font-size: 20px; text-transform: capitalize; margin: 0 0 30px;}
   .scroll-sec h3 small{color:#fff; display: block; font-family: 'MonaSansExpandedSemiBold'; font-size: 16px; text-transform: capitalize; margin: 0 0 30px;}
-  .scroll-sec .text{width: 80%; position: relative; font-size: 20px; padding: 0 0 0 17%;}
-  .scroll-sec .text:before{content: ""; background: #00a0c8; position: absolute; left: 0; bottom: 10px; width: 15%; height: 1px;}
-  .scroll-sec .text p{line-height: 34px;}
+  .scroll-sec .text{ position: relative; font-size: 20px; padding: 0 0 0 0%;}
+  /* .scroll-sec .text:before{content: ""; background: #00a0c8; position: absolute; left: 0; bottom: 10px; width: 15%; height: 1px;} */
+  .scroll-sec .text p{line-height: 34px;text-align: left;font-size: 16px;font-weight: 600;}
   .scroll-sec .text p:last-child{margin-bottom: 0;}
   .scroll-sec .title p{text-align: center;}
   .scroll-sec #cards{ /* Make place at bottom, as items will slide to that position*/ padding-bottom: calc(var(--numcards) * var(--card-top-offset)); /* Don't include the --card-margin in padding, as that will affect the scroll-timeline*/ margin-bottom: var(--card-margin);}
-  .scroll-sec #card_1 { --index: 1; }
-  .scroll-sec #card_2 { --index: 2; }
-  .scroll-sec #card_3 { --index: 3; }
-  .scroll-sec #card_4 { --index: 4; }
-  .scroll-sec ul{padding: 0;}
-  .scroll-sec .card{position: relative; top: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; padding: 0; margin: 0 0 30px; border: 0;}
+  .scroll-sec #card_1 { --index: 1;width: 60%; }
+  .scroll-sec #card_2 { --index: 2;width: 70%; }
+  .scroll-sec #card_3 { --index: 3;width: 80%; }
+  .scroll-sec #card_4 { --index: 4;width: 90%; }
+  .scroll-sec #card_6{width:100% ;}
+
+  .scroll-sec ul{padding: 0 0 0 0px;position: relative;}
+  .scroll-sec .card{position: relative; top: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; padding: 0; margin: 0 0 14px; border: 0;}
   .scroll-sec .card__content{transform-origin: 50% 0%; will-change: transform;} 
   .scroll-sec #debug{position: fixed; top: 1em; left: 1em;}
   .scroll-sec #debug::after{content: " Show Debug"; margin-left: 1.5em; color: white; white-space: nowrap;}
   .scroll-sec #debug:checked ~ main{--outline-width: 1px;}
   .scroll-sec #cards{color:#fff; list-style: none; outline: calc(var(--outline-width) * 10) solid hotpink; display: grid; grid-template-columns: 1fr; grid-template-rows: repeat(var(--numcards), var(--card-height)); gap: var(--card-margin); padding: 0;}
   .scroll-sec .card{outline: var(--outline-width) solid lime;}
-  .scroll-sec .card__content{background: #d6f0f6; overflow: hidden; /*display: grid; grid-template-areas: "text img"; grid-template-columns: 1fr 1fr; grid-template-rows: auto; align-items: stretch;*/ outline: 0; -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; padding: 50px;}
+  .scroll-sec .card__content{background: #d6f0f6; overflow: hidden; /*display: grid; grid-template-areas: "text img"; grid-template-columns: 1fr 1fr; grid-template-rows: auto; align-items: stretch;*/ outline: 0; -webkit-border-radius: 80px 0px 150px 80px; -moz-border-radius: 80px 0px 150px 80px; border-radius: 80px 0px 150px 80px; padding: 24px 30px;}
   .scroll-sec .light-green{background: #c8fdf7;}
   .scroll-sec .orange{background: #fff3d6;}
   .scroll-sec .red{background: #ffe7e8;}
-  .scroll-sec .card__content > div{width: 100%; display: flex; gap: 0; position: relative; align-items: end;}
+
+  .scroll-sec .card__content > div{width: 100%; display: flex; gap: 0; position: relative; align-items: center;}
   .scroll-sec .card__content > figure{margin:0; grid-area: img; overflow: hidden; border-left: 10px solid #fff;}
   .scroll-sec .card__content > figure > img{width: 100%; height: 400px; object-fit: cover;}
   .scroll-sec .btn{background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat; background-size: 0px 1px; transition: all 500ms ease; color: #fff; padding: 5px 0;}
