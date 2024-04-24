@@ -122,7 +122,8 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 
 .header{position:absolute; width: 100%; top: 0; left: 0; top:0; z-index:5; padding:0;}   
   .header .phone-call{margin: 0 0 0 10px;}
-  .header .phone-call .btn{text-transform: capitalize; padding: 13px 20px;}
+  .header .phone-call .btn{text-transform: capitalize; padding: 13px 20px;position: relative;}
+  .header .phone-call .btn img{max-width: 30px;margin-right: 10px;}
   .header nav{position: relative; top: 0; font-weight: 500; left: 0; width: 100%; height: auto; background: none;}
   .header nav .navbar{display: flex; align-items: center; justify-content: space-between; margin: auto; /* background: red; */ position: relative; max-width: 100%; margin: 20px auto 0; box-shadow: rgba(100,100,111,.2) 0 7px 29px 0; background: #fff; -webkit-border-radius: 8px; -moz-border-radius: 8px;  border-radius: 8px; padding: 0 20px;}
   .header .navbar .logo a{display: block; padding: 15px 0;}
@@ -352,18 +353,24 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .service-sec .specialitie-box .btn:hover{color: #09d0bc; background-size: 100% 1px;}
 
 .quote-tag .row{position: relative; margin: 0; color:#fff; padding: 70px 0px; background-color: transparent; background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%); color: #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;  overflow: hidden;}
-  .quote-tag  .row:after{content:''; background-image:url("images/bg-01.png"); background-repeat: no-repeat; background-attachment: scroll; background-position: 90% center; background-size: contain; height: 100%; left: 0; opacity: 0.4; position:absolute; top:0; width: 100%;}
+  .quote-tag  .row:after {content: '';background-image: url("images/quote-ban.jpeg");background-repeat: no-repeat;background-attachment: scroll;background-position: 90% center;background-size: contain;height: 86%;right: -15px;opacity: 0.4;position: absolute;top: 38px;width: 70%;}  
   .quote-tag  .row > *{position:relative; z-index: 3;}
   .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 35px;}
   .quote-tag h2 span{color:#fff; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
-  .quote-tag .info{position: relative; font-size: 16px; margin: 0; padding: 30px 40% 30px 50px;}
+  .quote-tag .info{position: relative; font-size: 16px; margin: 0; padding: 30px 34% 30px 30px;}
   .quote-tag h4{color:#fff; position: relative; text-transform:capitalize; padding: 15px 0 0; margin: 0;}
   .quote-tag h4 span{color:#fff; font-family: 'MonaSansExpandedRegular'; display: block; font-size: 16px; text-transform: capitalize; margin: 5px 0 0;}
   .quote-tag p{line-height: 26px;}
   .quote-tag .info .fa-solid{font-size: 50px;}
   .quote-tag .info .fa-quote-left{position: absolute; left: 0; top: 0;}
   .quote-tag .info .fa-quote-right{position: absolute; right: 0; bottom: 0;}
- 
+
+  .quote-tag .quote-box {position: relative; border: 2px solid #fff;padding: 26px 40px;font-size: 16px;text-align: center;font-weight: 600;letter-spacing: 1.5px;}
+  .quote-tag .quote-box span{display: block;}
+  .quote-tag .quote-box::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';right: 1%;bottom: 10%;}
+  .quote-tag .quote-box::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';left: 1%;top: 10%;}
+
+
 .client-speak{padding:80px 0 70px; position:relative; z-index:2;}   
   .client-speak h2{color:#00a0c8; position: relative; text-transform:capitalize; margin: 0 0 30px;}
   .client-speak h2 span{color:#0000; display: block; font-size: 16px; text-transform: uppercase; margin: 0 0 10px}
