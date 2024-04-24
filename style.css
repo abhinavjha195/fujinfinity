@@ -365,7 +365,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .quote-tag .info .fa-quote-left{position: absolute; left: 0; top: 0;}
   .quote-tag .info .fa-quote-right{position: absolute; right: 0; bottom: 0;}
 
-  .quote-tag .quote-box {position: relative; border: 2px solid #fff;padding: 26px 40px;font-size: 16px;text-align: center;font-weight: 600;letter-spacing: 1.5px;}
+  .quote-tag .quote-box {position: relative;border: 2px solid #fff;padding: 25px 60px;font-size: 16px;text-align: center;font-weight: 600;letter-spacing: 1.5px;background: rgba(250, 250, 250, 0.3);border-radius: 30px;}
   .quote-tag .quote-box span{display: block;}
   .quote-tag .quote-box::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';right: 1%;bottom: 10%;}
   .quote-tag .quote-box::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';left: 1%;top: 10%;}
