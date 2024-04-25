@@ -320,8 +320,8 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .scroll-sec .timeline--horizontal .timeline__item--bottom {padding: 2.5rem 0 0}
   .scroll-sec .timeline--horizontal .timeline__item--bottom:after {top: 0}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content__wrap {vertical-align: top}
-  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:before {border-bottom: 12px solid #000000;border-left: 12px solid transparent;border-right: 12px solid transparent;border-top: none;bottom: 86.5%;top: auto}
-  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:after {border-bottom: 10px solid #fff;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: none;bottom: 86%;top: auto}
+  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:before {border-bottom: 12px solid #000000;border-left: 12px solid transparent;border-right: 12px solid transparent;border-top: none;bottom: 84%;top: auto}
+  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:after {border-bottom: 10px solid #fff;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: none;bottom: 84%;top: auto}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content.light-green:after {border-bottom: 10px solid #c8fdf7;}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content.red:after {border-bottom: 10px solid #ffe7e8;}
   .scroll-sec .timeline-nav-button {transition: all 0.3s ease; background-color: #fff;border: 2px solid #000;border-radius: 50px;-webkit-box-sizing: border-box;box-sizing: border-box;-webkit-box-shadow: none;box-shadow: none;cursor: pointer;display: block;height: 40px;outline: 0;position: absolute;text-indent: -9999px;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);top: 50%;width: 40px;z-index: 10}
