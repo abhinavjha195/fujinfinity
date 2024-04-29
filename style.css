@@ -771,7 +771,7 @@ span.sr-only { position: absolute; }
    .top-sec ul li{margin: 0 5px;}
    .top-sec ul li i{margin: 0 2px 0 0; top: -1px; font-size: 12px;}
    .header .navbar .logo img{max-width: 150px;}
-   .header .phone-call{border-top: 1px solid #fff; margin: 0; position: fixed; left: 0; bottom: 0; z-index: 99; right: 0;}
+   .header .phone-call{border-top: 1px solid #fff; margin: 0; position: fixed; left: 0; bottom: 8px; z-index: 99; right: 0;}
    .header .phone-call .btn{width: 100%; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;}
    .banner{margin:0; background-position: left center;}
    .banner .right-grid figure{padding:0;margin: 0 0 50px;}
@@ -817,6 +817,9 @@ span.sr-only { position: absolute; }
 
    .flag-sec .flag-logos .logo{margin: 0 7px 18px 7px;position: relative;overflow: hidden;width: 100%;border-radius: 15px;}
    .flag-sec h2 span{display: block;}
+
+   .header .nav-right img {width:46px;}
+	
 
 }
 
