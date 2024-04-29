@@ -491,11 +491,11 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .flag-sec .flag-logos{display: flex;flex-wrap: wrap;justify-content: center;}
   .flag-sec .flag-logos figure:first-child img {border-top-left-radius: 15px;border-bottom-left-radius: 15px;}
   .flag-sec .flag-logos figure:last-child img {border-top-right-radius: 15px;border-bottom-right-radius: 15px;}
-  .flag-sec .flag-logos .logo{margin: 0 7px 18px 7px;position: relative;overflow: hidden;width: 19%;}
-  .flag-sec .flag-logos .logo::before{content: "";width: 0%;height: 20%;background-color: #00000088;position: absolute;left: 0;bottom: 0;transition: all 0.3s ease;}
+  .flag-sec .flag-logos .logo{margin: 0 7px 18px 7px;position: relative;overflow: hidden;width: 19%;border-radius: 12px;}
+  .flag-sec .flag-logos .logo::before{content: "";width: 0%;height: 20%;background-color: #0000005e;position: absolute;left: 0;bottom: 0;transition: all 0.3s ease;border-radius: 12px;}
   .flag-sec .flag-logos .logo:hover::before{width: 100%;transition: all 0.3s ease;height: 100%;}
   .flag-sec .flag-logos .logo h3{position: absolute;bottom: 8px;left: -150px;font-size: 22px;color: #fff;transition: all 0.3s ease;}
-  .flag-sec .flag-logos .logo:hover h3{left: 25px;transition: all 0.6s ease;}
+  .flag-sec .flag-logos .logo:hover h3{left: 25px;transition: all 0.6s ease;text-shadow: 3px 4px 5px #00000085;}
 
 .footer{background: rgba(120, 194, 199, 0.1); padding:80px 0 30px; position:relative; color:#242424;}
   .footer:after{content:''; background-image:url("images/programs-02.jpg"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover;  height: 100%; left: 0; opacity: 0.07; position:absolute; top:0; width: 100%;}
@@ -812,6 +812,9 @@ span.sr-only { position: absolute; }
    .quote-tag .quote-box::before{left: 2%;top: 4%;font-size: 28px;}
    .quote-tag .quote-box::after{right: 3%;bottom: 10px;font-size: 28px;}
    .scroll-sec h2{font-size: 30px;}
+
+   .flag-sec .flag-logos .logo{margin: 0 7px 18px 7px;position: relative;overflow: hidden;width: 100%;border-radius: 15px;}
+   .flag-sec h2 span{display: block;}
 
 }
 
