@@ -771,7 +771,7 @@ span.sr-only { position: absolute; }
    .top-sec ul li{margin: 0 5px;}
    .top-sec ul li i{margin: 0 2px 0 0; top: -1px; font-size: 12px;}
    .header .navbar .logo img{max-width: 150px;}
-   .header .phone-call{border-top: 1px solid #fff; margin: 0; position: fixed; left: 0; bottom: 0; z-index: 99; right: 0;}
+   .header .phone-call{border-top: 1px solid #fff; margin: 0; position: fixed; left: 0; bottom: 8px; z-index: 99; right: 0;}
    .header .phone-call .btn{width: 100%; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;}
    .banner{margin:0; background-position: left center;}
    .banner .right-grid figure{padding:0;margin: 0 0 50px;}
@@ -807,16 +807,18 @@ span.sr-only { position: absolute; }
    .footer .footer-top .wg-1{display: block;}
        
    .quote-tag h2{font-size: 30px;text-align: center;}
-   .quote-tag .info{padding: 150%  0 0px;}
+   .quote-tag .info{padding: 170%  0 0px;}
    .quote-tag .info p{text-align: center;}
-   .quote-tag .row:after{right: 0;left: 0;height:100%;width: 100%;top: -35%;}
+   .quote-tag .row:after {right: 0;left: 0px;height: 100%;width: 100%;top: -36%;box-shadow: none !important;}
    .quote-tag .quote-box {padding: 25px 34px;}
    .quote-tag .quote-box::before{left: 2%;top: 4%;font-size: 28px;}
    .quote-tag .quote-box::after{right: 3%;bottom: 10px;font-size: 28px;}
+   .quote-tag .info img{width: 260px;}
    .scroll-sec h2{font-size: 30px;}
 
-   .flag-sec .flag-logos .logo{margin: 0 7px 18px 7px;position: relative;overflow: hidden;width: 100%;border-radius: 15px;}
-   .flag-sec h2 span{display: block;}
+   .ft-bottom .ft-right{margin-top: 10px;}
+   .ft-bottom .ft-right img{width: 44px;}
+   .header .nav-right img{width: 52px;}
 
 }
 
