@@ -114,7 +114,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .sticky.header{background: #fff; border-bottom: 1px solid #ccc; -webkit-box-shadow: 0 1px 10px 0px #B0B0B0; box-shadow: 0 1px 10px 0px #B0B0B0; position: fixed;}  
   .sticky.header nav{}  
   .sticky.header nav .navbar{margin: 0; box-shadow: none; background: none; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; padding: 0; }
-  .sticky.header .navbar .logo img{max-width: 250px;}
+  .sticky.header .navbar .logo img{max-width: 130px;}
   .sticky.header nav .navbar .links li a{color: #000;}
   .sticky.header nav .navbar .links li .arrow{color: #000;}
   
@@ -122,12 +122,12 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 
 .header{position:absolute; width: 100%; top: 0; left: 0; top:0; z-index:5; padding:0;}   
   .header .phone-call{margin: 0 0 0 10px;}
-  .header .phone-call .btn{text-transform: capitalize; padding: 13px 20px;position: relative;}
+  .header .phone-call .btn{text-transform: capitalize; padding: 13px 20px;position: relative;width: 100%;}
   .header .phone-call .btn img{max-width: 30px;margin-right: 10px;}
   .header nav{position: relative; top: 0; font-weight: 500; left: 0; width: 100%; height: auto; background: none;}
   .header nav .navbar{display: flex; align-items: center; justify-content: space-between; margin: auto; /* background: red; */ position: relative; max-width: 100%; margin: 20px auto 0; box-shadow: rgba(100,100,111,.2) 0 7px 29px 0; background: #fff; -webkit-border-radius: 8px; -moz-border-radius: 8px;  border-radius: 8px; padding: 0 20px;}
-  .header .navbar .logo a{display: block; padding: 15px 0;}
-  .header .navbar .logo img{max-width: 270px;}
+  .header .navbar .logo a{display: block; padding: 18px 0;}
+  .header .navbar .logo img{max-width: 130px;}
   .header nav .navbar .nav-links{height: 100%; margin: 0 0 0 auto;}
   .header nav .navbar .links{display: flex; padding: 0; margin: 0;}
   .header nav .navbar .links li{position: relative; display: flex; align-items: center; justify-content: space-between; list-style: none; font-size: 14px; text-transform: capitalize; margin: 0 10px;}
@@ -153,6 +153,8 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .header .search-box .input-box input{position: absolute; top: 50%; left: 50%; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; transform: translate(-50%, -50%); height: 35px; width: 280px; outline: none; padding: 0 15px; font-size: 16px; border: none;} 
   .header .navbar .nav-links .sidebar-logo{display: none;} 
   .header .navbar .bx-menu{display: none;} 
+  .header .nav-right{display: flex;align-items: center;justify-content: space-between;margin-top: 5px;}
+  .header .nav-right img{width: 36px;border: 1px solid #eaeaea;margin: 0 3px;}
   
   @media (max-width:1100px) {
     .header nav .navbar{max-width: 100%; padding: 0; flex-direction: row-reverse;} 
@@ -401,7 +403,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 
   .quote-tag{position: relative;padding: 30px 0;}
 .quote-tag .row{position: relative; margin: 0; color:#fff; padding: 5px 0px 30px; background-color: transparent; background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%); color: #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;  overflow: hidden;}
-.quote-tag  .row:after {content: '';background-image: url("images/MicrosoftTeams.png");background-repeat: no-repeat;background-attachment: scroll;background-position: 90% center;background-size: contain;height: 530px;right: 40px;opacity: 0.8;position: absolute;top: 28px;width: 353px;border-radius: 15px;}  
+.quote-tag  .row:after {content: '';background-image: url("images/MicrosoftTeams.png");background-repeat: no-repeat;background-attachment: scroll;background-position: 90% center;background-size: contain;height: 530px;right: 40px;opacity: 1;position: absolute;top: 28px;width: 353px;border-radius: 15px;box-shadow: 10px 10px 10px #00d8d2;}  
   .quote-tag  .row > *{position:relative; z-index: 3;}
   .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 35px;}
   .quote-tag h2 span{color:#fff; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
