@@ -282,7 +282,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 .maping{margin: 0 auto;}
   .maping figure{padding: 0;}
 
-.scroll-sec{position: relative;} 
+.scroll-sec{position: relative; padding: 80px 0 0;} 
   .scroll-sec h2{color:#000; position: relative; text-transform:capitalize; margin: 0 0 20px;}
   .scroll-sec h2 span{color:#00a0c8; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
   .scroll-sec h3{color:#fff; position: relative; text-transform:capitalize; margin: 0; padding: 0px 20px 0 0; color:#00a0c8;  text-align: center;}
@@ -324,8 +324,8 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .scroll-sec .timeline--horizontal .timeline__item--bottom {padding: 2.5rem 0 0}
   .scroll-sec .timeline--horizontal .timeline__item--bottom:after {top: 0}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content__wrap {vertical-align: top}
-  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:before {border-bottom: 12px solid #000000;border-left: 12px solid transparent;border-right: 12px solid transparent;border-top: none;bottom: 86.5%;top: auto}
-  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:after {border-bottom: 10px solid #fff;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: none;bottom: 86%;top: auto}
+  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:before {border-bottom: 12px solid #000000;border-left: 12px solid transparent;border-right: 12px solid transparent;border-top: none;bottom: 82.5%;top: auto}
+  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:after {border-bottom: 10px solid #fff;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: none;bottom: 82%;top: auto}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content.light-green:after {border-bottom: 10px solid #c8fdf7;}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content.red:after {border-bottom: 10px solid #ffe7e8;}
   .scroll-sec .timeline-nav-button {transition: all 0.3s ease; background-color: #fff;border: 2px solid #000;border-radius: 50px;-webkit-box-sizing: border-box;box-sizing: border-box;-webkit-box-shadow: none;box-shadow: none;cursor: pointer;display: block;height: 40px;outline: 0;position: absolute;text-indent: -9999px;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);top: 50%;width: 40px;z-index: 10}
@@ -366,7 +366,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 
 
 
-.service-sec{position: relative; z-index: 1; padding: 80px 0 70px; text-align: center;}
+.service-sec{position: relative; z-index: 1; padding: 80px 0 70px; text-align: center;background: #fbfbfb;}
   .service-sec h2{color:#000; position: relative; text-transform:capitalize; margin: 0 0 35px;}
   .service-sec h2 span{color:#00a0c8; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
   .service-sec .item{margin: 0 15px;}
@@ -401,21 +401,30 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .service-sec .specialitie-box .btn:after{display: none;}
   .service-sec .specialitie-box .btn:hover{color: #09d0bc; background-size: 100% 1px;}
 
-  .quote-tag{position: relative;padding: 30px 0;}
-.quote-tag .row{position: relative; margin: 0; color:#fff; padding: 5px 0px 30px; background-color: transparent; background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%); color: #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;  overflow: hidden;}
-.quote-tag  .row:after {content: '';background-image: url("images/MicrosoftTeams.png");background-repeat: no-repeat;background-attachment: scroll;background-position: 90% center;background-size: contain;height: 530px;right: 40px;opacity: 1;position: absolute;top: 28px;width: 353px;border-radius: 15px;box-shadow: 10px 10px 10px #00d8d2;}  
+  .service-box {padding: 30px 50px 22px;border: 3px dashed #00a0c8;border-radius: 22px;width: 80%;margin: 30px auto 0;text-align: center;}
+  .service-box p{text-align: center;font-size: 16px;}
+
+  .quote-tag{position: relative;padding: 90px 0 ;}
+  .quote-tag .row {position: relative;margin: 0;color: #fff;padding: 30px 40px 60px;background-color: transparent;background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%);color: #fff;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;overflow: hidden;}  
   .quote-tag  .row > *{position:relative; z-index: 3;}
-  .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 35px;}
+  .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 24px;}
   .quote-tag h2 span{color:#fff; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
-  .quote-tag .info{position: relative; font-size: 16px; margin: 0; padding: 30px 34% 30px 30px;}
+  .quote-tag h3{color: #fff;font-size: 30px;margin: 0 0 30px;}
+  .quote-tag .info{position: relative; font-size: 16px; margin: 0; padding:16px 0 0px;}
   .quote-tag h4{color:#fff; position: relative; text-transform:capitalize; padding: 15px 0 0; margin: 0;}
   .quote-tag h4 span{color:#fff; font-family: 'MonaSansExpandedRegular'; display: block; font-size: 16px; text-transform: capitalize; margin: 5px 0 0;}
   .quote-tag p{line-height: 26px;}
   .quote-tag .info .fa-solid{font-size: 50px;}
   .quote-tag .info .fa-quote-left{position: absolute; left: 0; top: 0;}
   .quote-tag .info .fa-quote-right{position: absolute; right: 0; bottom: 0;}
+  .quote-tag .left{position: relative;border-radius: 30px;padding: 0 30px 0 10px;}
+  .quote-tag .left .main img {border-radius: 18px;height: 440px;width: 100%;object-fit: cover;}
+  .quote-tag .left p {background: #fff;color: #949494;padding: 18px;text-align: left;font-size: 13px;position: absolute;bottom: -32px;width: 82%;line-height: 18px;right: 0;left: 28px;border-radius: 12px;border:3px solid #03aec5;}
+  .quote-tag .left p span {display: block;font-size: 18px;font-weight: 700;color: #09cebc;margin-bottom: 5px;}
+  .quote-tag .left .sd-logo img {border-radius: 0px;position: absolute;width: 100px;top: 38px;left: 28px;}
 
-  .quote-tag .quote-box {position: relative;border: 2px solid #fff;padding: 25px 60px;font-size: 16px;text-align: center;font-weight: 600;letter-spacing: 1.5px;background: rgba(250, 250, 250, 0.3);border-radius: 30px;}
+
+  .quote-tag .quote-box {position: relative;border: 2px solid #fff;padding: 25px 60px;font-size: 16px;text-align: center;font-weight: 600;letter-spacing: 1.5px;background: rgba(250, 250, 250, 0.3);border-radius: 30px;margin-bottom: 26px;}
   .quote-tag .quote-box span{display: block;}
   .quote-tag .quote-box::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';right: 1%;bottom: 10%;}
   .quote-tag .quote-box::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';left: 1%;top: 10%;}
