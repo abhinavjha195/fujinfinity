@@ -368,7 +368,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 .service-sec{position: relative; z-index: 1; padding: 80px 0 80px; text-align: center;background: #fbfbfb;}
   .service-sec h2{color:#000; position: relative; text-transform:capitalize; margin: 0 0 35px;}
   .service-sec h2 span{color:#00a0c8; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
-  .service-sec .item{margin: 0 15px;}
+  .service-sec .item{margin: 0 0px;}
   .service-sec .owl-dots{display: none; text-align: center; margin: 40px 0 0;}
   .service-sec .owl-theme .owl-dots .owl-dot span{width: 12px; height: 12px; border-radius: 3px;}
   .service-sec .owl-theme .owl-dots .owl-dot.active span, .service-sec .owl-theme .owl-dots .owl-dot:hover span{background: #14133b;}
@@ -400,8 +400,11 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .service-sec .specialitie-box .btn:after{display: none;}
   .service-sec .specialitie-box .btn:hover{color: #09d0bc; background-size: 100% 1px;}
 
-  .service-box {padding: 30px 50px 22px;border: 3px dashed #00a0c8;border-radius: 22px;width: 80%;margin: 30px auto 0;text-align: center;}
-  .service-box p{text-align: center;font-size: 16px;}
+  .service-box {padding: 24px;border: 1px dashed #00a0c8;border-radius: 22px;text-align: center;display: flex;}
+  .service-box h4{width: 100%;text-align: left;}
+  .service-box .service-text p{text-align: justify;font-size: 14px;width: 100%;}
+  .service-box figure {width: 58%;margin: 0 20px 0 0;}
+  .service-box .service-text{width: 60%;}
 
   .quote-tag{position: relative;padding: 90px 0 ;}
   .quote-tag .row {position: relative;margin: 0;color: #fff;padding: 40px 40px 60px;background-color: transparent;background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%);color: #fff;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;overflow: hidden;align-items: center;}  
