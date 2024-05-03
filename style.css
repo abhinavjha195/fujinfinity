@@ -261,10 +261,10 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 .tag-sec{position: relative; z-index:3; margin: 0; padding: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; text-align: center;}
   .tag-sec h2{color:#000; position: relative; text-transform:capitalize; margin: 0 0 30px;}
   .tag-sec h2 span{color:#00a0c8; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
-  .tag-sec .tw-coll{width: 20%; margin: 0 0 30px;}
+  .tag-sec .tw-coll{width: 20%; margin: 0 0 30px; padding: 0 8px;}
   .tag-sec .tw-coll:last-child .info-content:after{display: none;}
   .tag-sec .info-content{position: relative; margin: 0;}
-  .tag-sec .info-content::after{content: ""; background: #fff; position: absolute; right: -15px; top: 0; height: 100%; width: 1px; opacity: 0.2;}
+  .tag-sec .info-content::after{content: ""; background: #fff; position: absolute; right: -10px; top: 0; height: 100%; width: 1px; opacity: 0.2;}
   .tag-sec .info-content .counter-box{position: relative; z-index: 2;background: #00a0c8;padding: 20px 0 20px 0px; border-radius: 8px;}
   .tag-sec .info-content .counter-box p{text-align: center;color: #fff;}
   .tag-sec .info-content .span{position: relative; color: #fff; font-size: 26px; vertical-align: middle; font-family: 'MonaSansExpandedSemiBold'; line-height: 28px;  display: inline-block;}
@@ -281,7 +281,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 .maping{margin: 0 auto;}
   .maping figure{padding: 0;}
 
-.scroll-sec{position: relative; padding: 80px 0 0;} 
+.scroll-sec{position: relative; padding: 60px 0 0;} 
   .scroll-sec h2{color:#000; position: relative; text-transform:capitalize; margin: 0 0 20px;}
   .scroll-sec h2 span{color:#00a0c8; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
   .scroll-sec h3{color:#fff; position: relative; text-transform:capitalize; margin: 0; padding: 0px 20px 0 0; color:#00a0c8;  text-align: center;}
@@ -404,7 +404,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .service-box p{text-align: center;font-size: 16px;}
 
   .quote-tag{position: relative;padding: 90px 0 ;}
-  .quote-tag .row {position: relative;margin: 0;color: #fff;padding: 30px 40px 60px;background-color: transparent;background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%);color: #fff;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;overflow: hidden;}  
+  .quote-tag .row {position: relative;margin: 0;color: #fff;padding: 40px 40px 60px;background-color: transparent;background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%);color: #fff;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;overflow: hidden;align-items: center;}  
   .quote-tag  .row > *{position:relative; z-index: 3;}
   .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 24px;}
   .quote-tag h2 span{color:#fff; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
@@ -427,7 +427,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .quote-tag .quote-box span{display: block;}
   .quote-tag .quote-box::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';right: 1%;bottom: 10%;}
   .quote-tag .quote-box::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';left: 1%;top: 10%;}
-  .quote-tag .info img {width: 140px;margin-bottom: 18px;}
+  .quote-tag .info img {width: 148px;margin-bottom: 18px;}
 
 .client-speak{padding:80px 0 70px; position:relative; z-index:2;}   
   .client-speak h2{color:#00a0c8; position: relative; text-transform:capitalize; margin: 0 0 30px;}
