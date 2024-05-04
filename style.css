@@ -407,6 +407,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .service-sec .specialitie-box .btn:hover{color: #09d0bc; background-size: 100% 1px;}
 
   .service-sec .owl-carousel .owl-stage-outer {position: relative;padding: 35px 0 0px;}
+  .service-sec .owl-carousel {padding: 0;}
 
     .service-sec .service-box {text-align: center;display: flex;position: relative;justify-content: center;}
     .service-sec .service-box h4{font-size: 24px; color: #fff;}
