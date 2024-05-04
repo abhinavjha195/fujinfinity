@@ -293,7 +293,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .scroll-sec h3{color:#fff; position: relative; text-transform:capitalize; margin: 0; padding: 0px 20px 0 0; color:#00a0c8;  text-align: center;}
   .scroll-sec .timeline__content p{line-height: 24px;text-align: left;font-size: 14px;font-weight: 600;margin: 0;}
   .scroll-sec .timeline__content p:last-child{margin-bottom: 0;}
-  .scroll-sec .title p{text-align: center;}
+  .scroll-sec .title p{text-align: center;margin-bottom: 10px;}
   .scroll-sec .timeline__content{background: #d6f0f6; overflow: hidden;outline: 0; -webkit-border-radius: 18px; -moz-border-radius: 18px; border-radius: 18px; padding: 24px 18px;min-height: 135px;}
   .scroll-sec .light-green{background: #c8fdf7;}
   .scroll-sec .orange{background: #fff3d6;}
@@ -318,7 +318,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .scroll-sec .timeline__content p {font-size: .9375rem;line-height: 1.5;margin-bottom: 10px}
   .scroll-sec .timeline--horizontal {font-size: 0;padding: 0 3.125rem;overflow: hidden;white-space: nowrap}
   .scroll-sec .timeline--horizontal .timeline-divider {background-color: transparent;display: block;height: 4px;left: 40px;position: absolute;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);right: 40px;z-index: 1;background-image: linear-gradient(135deg, #00a0c8 0%, #09D0BC 100%);}
-  .scroll-sec .timeline--horizontal .timeline__items {-webkit-transition: all .8s;-o-transition: all .8s;transition: all .8s;will-change: transform;height: 580px !important;}
+  .scroll-sec .timeline--horizontal .timeline__items {-webkit-transition: all .8s;-o-transition: all .8s;transition: all .8s;will-change: transform;height: 650px !important;}
   .scroll-sec .timeline--horizontal .timeline__item {display: inline-block;left: 0;padding: 0 0 2.5rem;position: relative;-webkit-transition: none;-o-transition: none;transition: none;vertical-align: top;white-space: normal}
   .scroll-sec .timeline--horizontal .timeline__item:after {left: 50%;right: auto;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);top: 100%}
   .scroll-sec .timeline--horizontal .timeline__item .timeline__item__inner {display: table;height: 100%;width: 100%}
