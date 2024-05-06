@@ -239,7 +239,7 @@ jQuery(window).scroll(function() {
 	    </div>
 	</div><!--/ coll --> 	
 		  
-		    <div class="service-box">
+		    <div class="service-box ">
 			  <figure class="col-sm-12">
 			    <img src="images/k2kidss.jpg" alt="Image">
 			  </figure>
@@ -298,18 +298,72 @@ jQuery(window).scroll(function() {
 		  
 		  </div><!--/ owl --> 
 		 
-		  <p class="text-center bottom-btn pad-t10 mrb-40"><a href="#" class="btn">Explore All Locations  <i class="fa-solid fa-arrow-right"></i></a></p>   
+		  <p class="text-end bottom-btn"><a href="#" class="btn">Explore All Locations  <i class="fa-solid fa-arrow-right"></i></a></p>   
 
-		    <div class="service-box">
-			  <figure class="col-sm-12">
-			    <img src="images/vision-5.jpg" alt="Image">
-			  </figure>
-			  <div class="service-text col-sm-12">
-				<h4>K-12 Residential Schools</h4>
-			  <p> C2C Global Education India is dedicated to establishing the finest K-12 and residential schools in India,<br> with our committed team actively working to realize this vision.</p>
-			  </div>
-			</div>	
     </div><!--/ row --> 
+	<div class="row">
+		<div class="service-box">
+			<figure class="col-sm-12">
+			  <img src="images/vision-5.jpg" alt="Image">
+			</figure>
+			<div class="service-text col-sm-12">
+			  <h4>K-12 Residential Schools</h4>
+			<p> C2C Global Education India is dedicated to establishing the finest K-12 and residential schools in India,<br> with our committed team actively working to realize this vision.</p>
+			</div>
+		  </div>	
+
+		  <div class="owl-carousel owl-theme" id="owl-demo-2">
+		
+			<div class="item">
+			  <div class="specialitie-box">
+				<figure>
+				  <img src="images/service-01.jpg" alt="Image">
+				  <!--div class="tour-overlay"></div>
+				  <div-- class="specialitie-content">
+					<img src="images/service-01.jpg" alt="Image">
+					<p>Lorem ipsum dolor sit amet ut labore et dolore magna aliqua.</p>
+					<p><a href="#" class="btn">Explore Our Schools  <i class="fa-solid fa-arrow-right"></i></a></p>
+				  </div-->
+				</figure>
+				<h4>Vasant Kunj, New Delhi</h4>
+			  </div>
+			</div><!--/ item --> 
+			
+			<div class="item">
+			  <div class="specialitie-box">
+				<figure>
+				  <img src="images/service-02.jpg" alt="Image">
+				  <!--div class="tour-overlay"></div>
+				  <div class="specialitie-content">
+					<img src="images/service-02.jpg" alt="Image">
+					<p>Lorem ipsum dolor sit amet ut labore et dolore magna aliqua.</p>
+					<p><a href="#" class="btn">Explore Our Schools  <i class="fa-solid fa-arrow-right"></i></a></p>
+				  </div-->
+				</figure>
+				<h4>Greater Kailash, New Delhi</h4>
+			  </div>
+			</div><!--/ item -->
+			
+			<div class="item">
+			  <div class="specialitie-box">
+				<figure>
+				  <img src="images/service-03.jpg" alt="Image">
+				  <!--div class="tour-overlay"></div>
+				  <div class="specialitie-content">
+					<img src="images/service-03.jpg" alt="Image">
+					<p>Lorem ipsum dolor sit amet ut labore et dolore magna aliqua.</p>
+					<p><a href="#" class="btn">Explore Our Schools  <i class="fa-solid fa-arrow-right"></i></a></p>
+				  </div-->
+				</figure>
+				<h4>Sector 62, Gurugram</h4>
+			  </div>
+			</div><!--/ item -->   
+		  
+		  </div><!--/ owl --> 
+
+	</div>
+
+
   </div>
 </section><!--/ service-sec --> 
 
@@ -619,6 +673,28 @@ $('#owl-demo-1').owlCarousel({
     }
 })  
 </script>
+
+<script>
+	$('#owl-demo-2').owlCarousel({
+		loop:true,
+		autoplay:false,
+		autoplayHoverPause:true,
+		autoplayTimeout:3000,
+		margin:0,
+		nav:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:3
+			}
+		}
+	})  
+	</script>
 
 <script>
     $(document).ready(function() {
