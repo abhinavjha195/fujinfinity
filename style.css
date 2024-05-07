@@ -248,7 +248,15 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .philosophy-sec .philosophy-left p, .philosophy-sec .philosophy-right p{text-align: center;line-height: 40px;font-size: 16px;font-weight: 600;} 
   .philosophy-sec .philosophy-left::after{content:"";height: 100%;width: 1px;background-color: #000;position: absolute;top: 0;right: -15px;}
   .philosophy-sec .philosophy-left, .about-stand-sec .philosophy-right{position: relative;}
+
   
+  .new-philosophy-sec{position: relative;padding: 20px 0 80px;}
+  .new-philosophy-sec h2{color: #000;}
+  .new-philosophy-sec p{text-align: center;}
+  .new-philosophy-sec .row {background-color: #09d0bc14;padding: 50px;border-radius: 30px;}
+  .new-philosophy-sec .left p, .new-philosophy-sec .right p{text-align: left;}
+  .new-philosophy-sec .left{border-right: 2px solid #000;}
+  .new-philosophy-sec .right{padding: 0 15px 0 30px;}
 
    
 .about-sec{background: #d6f0f5;background-color: #f1fdff; padding:80px 0 50px; position:relative; z-index:2;}   
