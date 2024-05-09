@@ -347,13 +347,13 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .scroll-sec .timeline--horizontal .timeline__item:after {left: 50%;right: auto;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);top: 100%}
   .scroll-sec .timeline--horizontal .timeline__item .timeline__item__inner {display: table;height: 100%;width: 100%}
   .scroll-sec .timeline--horizontal .timeline__item .timeline__content__wrap {display: table-cell;margin: 0;padding: 0;vertical-align: bottom}
-  .scroll-sec .timeline--horizontal .timeline__item .timeline__content:before {border-left: 12px solid transparent;border-right: 12px solid transparent;border-top: 12px solid #000000;left: 50%;right: auto;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);top: 84%}
+  .scroll-sec .timeline--horizontal .timeline__item .timeline__content:before {border-left: 12px solid transparent;border-right: 12px solid transparent;left: 50%;right: auto;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);top: 84%}
   .scroll-sec .timeline--horizontal .timeline__item .timeline__content:after {border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 10px solid #d6f0f6;left: 50%;right: auto;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);top: 83%}
   .scroll-sec .timeline--horizontal .timeline__item .timeline__content.orange:after{border-top: 10px solid #fff3d6 !important;}
   .scroll-sec .timeline--horizontal .timeline__item--bottom {padding: 2.5rem 0 0}
   .scroll-sec .timeline--horizontal .timeline__item--bottom:after {top: 0}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content__wrap {vertical-align: top}
-  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:before {border-bottom: 12px solid #000000;border-left: 12px solid transparent;border-right: 12px solid transparent;border-top: none;bottom: 82.5%;top: auto}
+  .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:before {border-left: 12px solid transparent;border-right: 12px solid transparent;border-top: none;bottom: 82.5%;top: auto}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content:after {border-bottom: 10px solid #fff;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: none;bottom: 82%;top: auto}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content.light-green:after {border-bottom: 10px solid #c8fdf7;}
   .scroll-sec .timeline--horizontal .timeline__item--bottom .timeline__content.red:after {border-bottom: 10px solid #ffe7e8;}
