@@ -849,7 +849,7 @@ span.sr-only { position: absolute; }
 .tab-wrapper .chairman-sec figure img{border: 8px solid #00a0c8;}
 .tab-wrapper .chairman-sec .tab-info{border: 3px solid #00a0c8;background-color: #00313e91;}
   
-  .tab-wrapper .right{padding: 0 50px 0 20px;position: relative;}
+  .tab-wrapper .right{padding: 0 50px 0 4px;position: relative;}
   .tab-wrapper .tab-info {padding: 50px 60px;border: 2px solid #fff;border-radius: 30px;position: relative;}
   .tab-wrapper .right h2{color: #fff;margin-bottom: 30px;}
   .tab-wrapper .tab-info p{font-size: 17px; font-weight: 500;color: #fff;}
