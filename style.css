@@ -840,7 +840,7 @@ span.sr-only { position: absolute; }
 
 
   .tab-wrapper {position: relative;padding: 160px 0 80px;}
-  .tab-wrapper .chairman-sec::before {background-image: url(images/programs-02.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;content: "";width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0.3;z-index: 0;border-radius: 30px;background-attachment: fixed;}
+  .tab-wrapper .chairman-sec::before {background-image: url(images/programs-02.jpg);background-size: cover;background-repeat: no-repeat;background-position: center center;content: "";width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0.4;z-index: 0;border-radius: 30px;background-attachment: fixed;}
   .tab-wrapper .chairman-sec {position: relative; display: flex;flex-wrap: wrap;border-radius: 30px; padding: 40px 50px 50px;background-color: #000;align-items: center;}
   .tab-wrapper .chairman-sec img{height: 400px;width: 100%;object-fit: cover;}
   .tab-wrapper .chairman-sec .right h2 {margin-top: -110px;color: #00a0c8;margin-bottom: 80px;}
