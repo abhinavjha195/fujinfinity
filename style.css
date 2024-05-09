@@ -630,7 +630,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .mid-inner ol{margin: 0; padding: 0 0 5px; counter-reset: section;}
   .mid-inner ol li{margin: 0; padding: 0 0 8px; list-style: none;}
   .mid-inner ol li::before{content: counters(section, ".") " . "; counter-increment: section;}
-  .mid-inner ol li a{color: #000;}
+  .mid-inner ol li a{color: #000;font-weight:600;}
   .mid-inner ol li a:hover{color: #00a0c8;}
 
 .login-wrap{position: relative; padding: 70px 0 40px;}
