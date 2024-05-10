@@ -843,11 +843,11 @@ span.sr-only { position: absolute; }
   .about-stand-sec p{line-height: 30px;}
 
 
-    .tab-wrapper {position: relative;padding: 170px 0 80px;}
+  .tab-wrapper {position: relative;padding: 170px 0 80px;}
   .tab-wrapper .row {position: relative; border-radius: 30px;background-color: #d9f2f7;align-items: center;}
   .tab-wrapper  .right h2 {color: #00a0c8;margin-bottom: 20px;}
   .tab-wrapper  figure {margin-bottom: 0;}
-  .tab-wrapper  figure img{border-radius: 0 30px 30px 0px ;height: 400px;width: 100%;object-fit: cover;}
+  .tab-wrapper  figure img{border-radius: 0 30px 30px 0px ;height: 400px;width: 100%;object-fit: cover;object-position:center 46%;}
   .tab-wrapper .right{padding: 0 30px 0 30px;position: relative;}
   .tab-wrapper .tab-info {padding: 50px 60px;}
   .tab-wrapper .tab-info p{font-size: 17px; font-weight: 500;color: #000;}
