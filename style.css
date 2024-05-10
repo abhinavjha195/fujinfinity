@@ -251,19 +251,23 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 
   
   .new-philosophy-sec{position: relative;padding: 80px 0 70px;background: url(images/c2c-mean-ban.jpg);background-size: cover;background-position: center bottom;background-repeat: no-repeat;}
-  .new-philosophy-sec h2{color: #000;text-align: center;}
-  .new-philosophy-sec p{text-align: center;}
+  .new-philosophy-sec h2{color: #00a0c8;text-align: center;}
+  .new-philosophy-sec p{text-align: center;margin: 0;}
   .new-philosophy-sec .row {border-radius: 30px;}
   /* .new-philosophy-sec .left p, .new-philosophy-sec .right p{text-align: center;} */
-  .new-philosophy-sec .left {padding: 30px 15% 20px;background: #01a0c7;margin: 30px 0;}  
-  .new-philosophy-sec h3{font-size: 24px;color: #fff;text-align: center;}
+  .new-philosophy-sec .left {padding: 30px 15% 20px;margin:0;}  
+  .new-philosophy-sec h3{font-size: 24px;color: #000;text-align: center;}
   .new-philosophy-sec .right h3{color:#000;}
-  .new-philosophy-sec .right{background: #fff;padding: 40px 15% 30px;background-repeat: no-repeat;background-size: cover;background-position: center;}
+  .new-philosophy-sec .right{padding: 0px 15% 0px;background-repeat: no-repeat;background-size: cover;background-position: center;}
   .new-philosophy-sec .right ul{padding-left: 0px ;}
   .new-philosophy-sec .right ul li{line-height: 34px;list-style:none;}
   .new-philosophy-sec .right ul li::before{content: "\f138";font-family: FontAwesome;margin-right: 10px;position: relative;}
-  .new-philosophy-sec .right img {width: 40px;margin-right: 10px;}
-  .new-philosophy-sec .left img {width: 40px;margin-right: 10px;filter: brightness(0)invert(1);}
+  .new-philosophy-sec .right img {width: 60px;margin-right: 10px;}
+  .new-philosophy-sec .left img {width: 60px;margin-right: 10px;}
+  .new-philosophy-sec .right span{display: block;margin-bottom:10px;}
+ .new-philosophy-sec .left span{display: block;margin-bottom:10px;}
+  /* .new-philosophy-sec .col-sm-12{position: relative;}
+  .new-philosophy-sec .col-sm-12::before{content: ""; width: 30%; height: 2px; color: #000000;position: absolute;bottom: 0;} */
 
 
    
@@ -610,7 +614,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 .banner-inner{background-image: url(images/banner-inner.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center 160% ; background-size: cover; position: relative; z-index: 1;  padding: 0; height: auto; padding: 230px 0 50px;}
   .banner-inner:before{content:''; background: #000; position:absolute; left:0; top:0; height:100%; width:100%; z-index:2; opacity:0.2;}
   .banner-inner .banner-text{padding: 30px 0 0; text-align: center;}
-  .banner-inner h1{padding: 0; color: #fff; font-size: 56px; line-height: 65px; font-style: normal; margin: 0 0 20px; -webkit-animation-delay: 0.7s; animation-delay: 0.7s;text-align: center;text-shadow:0 4px 7px #00000038;}
+  .banner-inner h1{padding: 0; color: #fff; font-size: 56px; line-height: 65px; font-style: normal; margin: 0 0 20px; -webkit-animation-delay: 0.7s; animation-delay: 0.7s;text-align: center;text-shadow: 0 4px 7px #00000038;}
   .banner-inner h1::after{content: ""; background: #fff; width: 150px; height: 1px; display: block; margin: 30px auto 0;}
   .banner-inner h3{color: #fff; font-size: 28px; display: block; margin: 0 0 30px; line-height:normal; letter-spacing:0; text-transform:uppercase; font-weight: 400; position: relative;}
 
@@ -629,9 +633,10 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 
   .mid-inner ol{margin: 0; padding: 0 0 5px; counter-reset: section;}
   .mid-inner ol li{margin: 0; padding: 0 0 8px; list-style: none;}
-  .mid-inner ol li::before{content: counters(section, ".") " . "; counter-increment: section;}
-  .mid-inner ol li a{color: #000;font-weight: 600;}
-  .mid-inner ol li a:hover{color: #00a0c8;}
+  .mid-inner ol li::before{content: counters(section, ".") " . "; counter-increment: section;color: #00a0c8;}
+  .mid-inner ol li a{color: #00a0c8;font-weight: 600;}
+  .mid-inner ol li a:hover{color: #000;}
+  .mid-inner ol li:hover::before{color: #000;}
 
 .login-wrap{position: relative; padding: 70px 0 40px;}
   .login-wrap h2{font-size: 34px; font-weight: 600; margin: 0 0 15px; text-transform: capitalize; position: relative; color: #000;}  
@@ -847,7 +852,8 @@ span.sr-only { position: absolute; }
   .tab-wrapper .row {position: relative; border-radius: 30px;background-color: #d9f2f7;align-items: center;}
   .tab-wrapper  .right h2 {color: #00a0c8;margin-bottom: 20px;}
   .tab-wrapper  figure {margin-bottom: 0;}
-  .tab-wrapper  figure img{border-radius: 0 30px 30px 0px ;height: 400px;width: 100%;object-fit: cover;object-position:center 46%;}
+  .tab-wrapper  figure img{border-radius: 0 30px 30px 0px ;height: 400px;width: 100%;object-fit: cover;object-position: center 46%;}
+  
   .tab-wrapper .right{padding: 0 30px 0 30px;position: relative;}
   .tab-wrapper .tab-info {padding: 50px 60px;}
   .tab-wrapper .tab-info p{font-size: 17px; font-weight: 500;color: #000;}
@@ -858,12 +864,13 @@ span.sr-only { position: absolute; }
   .tab-wrapper .tab-img h4 small {font-size: 11px;display: block;margin-top: 5px;color: #02adc4;}
 
   .team-sec{position: relative;padding: 0px 0 80px;}
-  .team-sec .team-head{margin-bottom: 150px;}
+  .team-sec .team-head{margin-bottom: 98px;}
+  .team-sec .team-box{padding: 34px;}
   .team-sec .team-box .box {position: relative;background-color: rgb(1 160 199);padding: 20px 20px 5px 20px;border-radius: 30px;gap: 16px;}
   .team-sec .team-box .box h3{  color: #fff;font-size: 24px;margin-bottom: 15px;text-transform: uppercase;}
   .team-sec .team-box .box p{color: #fff;text-align: left;}
   .team-sec .team-box figure{position: relative;}
-  .team-sec .team-box img{ height: 300px;width: 300px;object-fit: cover;border-radius: 100%;display: block;margin: -160px auto 0;border: 10px solid #fff;}
+  .team-sec .team-box img{ height: 280px;width: 280px;object-fit: cover;border-radius: 100%;display: block;margin: -160px auto 0;border: 10px solid #fff;}
   .team-sec .team-box .team-info{  padding: 0 15px 10px;width: auto;text-align: center;}
   .team-sec .team-box  h4{  position: relative;background: rgb(255, 255, 255);padding: 10px 12px;border-radius: 0;margin: 20px -20px 0;right: 0;text-align: center;color: #000;font-size: 24px;text-transform: uppercase;}
   .team-sec .team-box small { font-size: 14px;display: block;margin-top: 5px;color: #01a0c7;}
