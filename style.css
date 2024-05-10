@@ -608,9 +608,9 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .wg-1 ul{margin:0; padding:0;} 
   
 .banner-inner{background-image: url(images/banner-inner.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center 160% ; background-size: cover; position: relative; z-index: 1;  padding: 0; height: auto; padding: 230px 0 50px;}
-  .banner-inner:before{content:''; background: #000; position:absolute; left:0; top:0; height:100%; width:100%; z-index:2; opacity:0.6;}
+  .banner-inner:before{content:''; background: #000; position:absolute; left:0; top:0; height:100%; width:100%; z-index:2; opacity:0.2;}
   .banner-inner .banner-text{padding: 30px 0 0; text-align: center;}
-  .banner-inner h1{padding: 0; color: #fff; font-size: 56px; line-height: 65px; font-style: normal; margin: 0 0 20px; -webkit-animation-delay: 0.7s; animation-delay: 0.7s;text-align: center;}
+  .banner-inner h1{padding: 0; color: #fff; font-size: 56px; line-height: 65px; font-style: normal; margin: 0 0 20px; -webkit-animation-delay: 0.7s; animation-delay: 0.7s;text-align: center;text-shadow:0 4px 7px #00000038;}
   .banner-inner h1::after{content: ""; background: #fff; width: 150px; height: 1px; display: block; margin: 30px auto 0;}
   .banner-inner h3{color: #fff; font-size: 28px; display: block; margin: 0 0 30px; line-height:normal; letter-spacing:0; text-transform:uppercase; font-weight: 400; position: relative;}
 
