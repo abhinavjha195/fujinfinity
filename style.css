@@ -854,7 +854,7 @@ span.sr-only { position: absolute; }
   .tab-wrapper .tab-info::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'FontAwesome';right: 5%;bottom: 4%;color:#00a0c8;}
   .tab-wrapper .tab-info::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'FontAwesome';left: 5%;top: 3%;color:#00a0c8;}
   .tab-wrapper .tab-img{position: relative;padding: 0;}
-  .tab-wrapper .tab-img h4{ text-align: center; left: 10px;bottom: 10px;right: 10px;position: absolute;margin: 0;background: #ffc848;color: #000;padding: 10px;border-radius: 50px 50px 50px 0px;border: 2px solid rgba(250, 250, 250, 0.5);}
+  .tab-wrapper .tab-img h4{ text-align: center; left: 15px;bottom: 15px;right: 15px;position: absolute;margin: 0;background: #ffc848;color: #000;padding: 10px;border-radius: 50px 50px 50px 0px;border: 2px solid rgba(250, 250, 250, 0.5);}
   .tab-wrapper .tab-img h4 small {font-size: 11px;display: block;margin-top: 5px;color: #02adc4;}
 
   .team-sec{position: relative;padding: 0px 0 80px;}
