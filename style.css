@@ -465,8 +465,8 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
 
 
   .quote-tag{position: relative;padding: 80px 0 ;}
-  .quote-tag .row {position: relative;margin: 0;padding: 60px 50px 50px;background-color: #000;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;overflow: hidden;align-items: center;}  
-  .quote-tag .row::before{content:'';position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-image: url(images/school-building.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;opacity: 0.3;}
+  .quote-tag .row {position: relative;margin: 0;padding: 60px 50px 50px;background-color: #006f8a;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;overflow: hidden;align-items: center;}  
+  .quote-tag .row::before {content: "";position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;background-image: url("images/school-building.jpg");background-repeat: no-repeat;background-position: center center;background-size: cover;opacity: 0.1;/* filter: blur(0px); */background-attachment: fixed;}
   .quote-tag  .row > *{position:relative; z-index: 3;}
   .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 24px;}
   .quote-tag h2 span{color:#fff; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
