@@ -254,7 +254,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .philosophy-sec .philosophy-left, .about-stand-sec .philosophy-right{position: relative;}
   .philosophy-sec .blue-highlight{font-size: 16px;display: inline;}
   
-  .about-philosophy-sec{position: relative;padding: 0px 0 0px;background: url(images/student-1.jpg);background-size: cover;background-position: center;background-repeat: no-repeat;}
+  .about-philosophy-sec{position: relative;padding: 0px 0 0px;background: url(images/img-01.jpg);background-size: cover;background-position: center;background-repeat: no-repeat;}
   .about-philosophy-sec::before{content: "";width: 100%;height: 100%;background-color: #000;position: absolute;top: 0;left: 0;opacity: 0.65;}
   .about-philosophy-sec .philosophy-head::after {content: "";width: 1.5px;height: 100%;position: absolute;background-color: #ffffff2b;top: 0%;right: 0;}
   .about-philosophy-sec .philosophy-head:last-child::after{display: none;}
