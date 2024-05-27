@@ -242,35 +242,34 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .btn:hover:after{width:100%;}
   .btn:hover{background: #00a0c8; color:#fff; -webkit-transition: all .3s; -moz-transition: all .3s;-o-transition: all .3s; transition: all .3s;}
   
-  .philosophy-sec{position: relative;background: url(images/c2c-mean-ban.jpg);background-size: cover;background-position: center bottom;background-repeat: no-repeat;padding: 80px 0 70px;}
-  .philosophy-sec h2{color: #000;text-align: center;}
-  .philosophy-sec p span{display: block;text-align: center;font-size: 24px;font-weight: 800;color: #03aec5;padding: 15px 0;}
+  .philosophy-sec{position: relative;background: url(images/g4.jpg);background-size: cover;background-position: center top;background-repeat: no-repeat;padding: 80px 0 70px;}
+  .philosophy-sec::after {content: "";width: 100%;height: 100%;position: absolute;background: #000;top: 0;left: 0;opacity: 0.64;}
+  .philosophy-sec h2{color: #fff;text-align: center;}
+  .philosophy-sec p span{display: block;text-align: center;font-size: 24px;font-weight: 800;color: #00ccff;padding: 15px 0;}
   .philosophy-sec p{text-align: center;}
-  .philosophy-sec h3{text-align: center;margin-bottom: 26px;}
+  .philosophy-sec h3{text-align: center;margin-bottom: 26px;color: #00ccff;}
   .philosophy-sec .philosophy-left, .philosophy-sec .philosophy-right{text-align: center;padding: 30px 15px;}
-  .philosophy-sec .philosophy-left p, .philosophy-sec .philosophy-right p{text-align: center;line-height:26px;font-size: 16px;font-weight: 600;} 
-  .philosophy-sec .philosophy-left::after{content:"";height: 100%;width: 1px;background-color: #000;position: absolute;top: 0;right: -15px;}
+  .philosophy-sec .philosophy-left p, .philosophy-sec .philosophy-right p{text-align: center;line-height:26px;font-size: 16px;font-weight: 600;color: #fff;} 
+  .philosophy-sec .philosophy-left::after{content:"";height: 100%;width: 1px;background-color: transparent;position: absolute;top: 0;right: -15px;background-image: linear-gradient(358deg, #00a0c8 0%, #09D0BC 100%);}
   .philosophy-sec .philosophy-left, .about-stand-sec .philosophy-right{position: relative;}
   .philosophy-sec .blue-highlight{font-size: 16px;display: inline;}
   
-  .about-philosophy-sec{position: relative;padding: 80px 0 80px;background: url(images/c2c-mean-ban-2.jpg);background-size: cover;background-position: center;background-repeat: no-repeat;}
-  .about-philosophy-sec h2{color: #00a0c8;text-align: center;}
-  .about-philosophy-sec p{text-align: center;margin: 0;}
-  .about-philosophy-sec .row {border-radius: 30px;}
-  /* .new-philosophy-sec .left p, .new-philosophy-sec .right p{text-align: center;} */
-  .about-philosophy-sec h3{font-size: 24px;color: #000;text-align: center;}
-  .about-philosophy-sec .right h3{color:#000;}
-  .about-philosophy-sec .right ul{padding-left: 0px ;text-align: center;}
-  .about-philosophy-sec .right ul li{ list-style: none;position: relative;display: inline-block;padding: 6px 0 6px 30px;text-align: left;margin-bottom: 3px;}
-  .about-philosophy-sec .right ul li::before {  content: '';background-image: url(images/hand-fan.png);position: absolute;width: 20px;height: 20px;background-size: cover;background-repeat: no-repeat;left: 0;top: 8px;}
-  .about-philosophy-sec .philosophy-info img {width: 60px;margin-right: 10px;}
-  .about-philosophy-sec .philosophy-info {position: relative;padding: 52px 20px;background-color: #ffffff8f;border-radius: 15px;border: 1px solid #09cebea3; height: 100%;}   
-  .about-philosophy-sec .left {position: relative;}
-  .about-philosophy-sec .left img {width: 60px;margin-right: 10px;}
-  .about-philosophy-sec .right span{display: block;margin-bottom:10px;font-size: 28px;}
+  .about-philosophy-sec{position: relative;padding: 0px 0 0px;background: url(images/student-1.jpg);background-size: cover;background-position: center;background-repeat: no-repeat;}
+  .about-philosophy-sec::before{content: "";width: 100%;height: 100%;background-color: #000;position: absolute;top: 0;left: 0;opacity: 0.65;}
+  .about-philosophy-sec .philosophy-head::after {content: "";width: 1.5px;height: 100%;position: absolute;background-color: #ffffff2b;top: 0%;right: 0;}
+  .about-philosophy-sec .philosophy-head:last-child::after{display: none;}
+  .about-philosophy-sec h2{color: #ffffff;text-align: center;margin-bottom: 15px;padding-bottom: 15px;position: relative;}
+  .about-philosophy-sec h2::after {content: "";width: 34%;height: 1px;position: absolute;background: #00a0c8;left: 0;bottom: 0;right: 0;margin: 0 auto;}
+  .about-philosophy-sec p{text-align: justify;margin: 0 0 10px;color:#fff;}
+  .about-philosophy-sec .philosophy-head ul{padding-left: 0px ;text-align: center;}
+  .about-philosophy-sec .philosophy-head ul li{ list-style: none;position: relative;display: inline-block;padding: 6px 0 6px 30px;text-align: left;margin-bottom: 3px;color: #fff;}
+  .about-philosophy-sec .philosophy-head ul li::before {  content: '';background-image: url(images/hand-fan.png);position: absolute;width: 20px;height: 20px;background-size: cover;background-repeat: no-repeat;left: 0;top: 8px;filter: invert(1);}
+  .about-philosophy-sec .philosophy-info {padding: 0 28px;}   
+  .about-philosophy-sec .philosophy-head {position: relative;text-align: center;padding: 70px 0px 30px;}
+  .about-philosophy-sec .philosophy-head img{width: 120px;border: 2px dashed #fff;border-radius: 50%;padding: 3px;rotate: 0deg;transition: all 0.8s ease;}
+  .about-philosophy-sec .right span{display: block;margin-bottom:10px;font-size: 24px;}
   .about-philosophy-sec .left span{display: block;margin-bottom:10px;}
-  /* .about-philosophy-sec .left::before{content: '';width: 48%;height: 2px ;position: absolute;background: #b9eaee;margin: 0 auto;left: 24%;top: 55%;}
-  .about-philosophy-sec .left::after {content: '';width: 2px;height: 48%;position: absolute;background: #b9eaee;margin: 0 auto;right: 0px;top: 24%;} */
+  .about-philosophy-sec .philosophy-head:hover img{rotate: 360deg;transition: all 0.8s ease;}
 
    
 .about-sec{background: #d6f0f5;background-color: #f1fdff; padding:80px 0 50px; position:relative; z-index:2;}   
@@ -860,40 +859,38 @@ span.sr-only { position: absolute; }
   .about-stand-sec p{line-height: 30px;}
 
 
-  .tab-wrapper {position: relative;padding: 170px 0 80px;}
-  .tab-wrapper .row {position: relative;border-radius: 30px;background-color: #d9f2f7;align-items: center; padding: 70px 50px 50px;background-image:url(images/chairman-ban.jpeg);background-size: cover; background-position: center 35%;background-attachment:fixed ;background-repeat: no-repeat;}
+  .tab-wrapper {position: relative;padding: 170px 0 50px;}
+  .tab-wrapper .row {position: relative;border-radius: 30px;background-color: #d9f2f7;align-items: center; padding: 70px 50px 70px;background-image:url(images/chairman-ban.jpeg);background-size: cover; background-position: center 35%;background-attachment:fixed ;background-repeat: no-repeat;}
   .tab-wrapper .row::before{content: "";width: 100%;height: 100%;left: 0;top: 0;position: absolute;background-color: #000;border-radius: 30px;opacity: 0.55;}
   .tab-wrapper  .right h2 {color: #00a0c8;margin-bottom: 100px;margin-top: -155px;}
   .tab-wrapper  .tab-img {margin-bottom: 0;margin-top: -150px;position: relative;padding: 0 15px 0 0;display: block;}
-  .tab-wrapper  .tab-img img {border-radius: 20px;height: 440px;width: 100%;object-fit: cover;object-position: center 46%;border: 10px solid #00a0c8;}
-  
+  .tab-wrapper  .tab-img img {border-radius: 20px;height: 470px;width: 100%;object-fit: cover;object-position: center 46%;border: 10px solid #00a0c8;}
   .tab-wrapper .right{padding: 0 50px 0 0px;position: relative;}
-  .tab-wrapper .tab-info {padding: 60px 50px 50px;border: 3px solid #fff;border-radius: 24px;position: relative;margin-bottom: 14px;background-color: #00000069;}
+  .tab-wrapper .tab-info {padding: 50px 50px 30px 50px;border: 3px solid #fff;border-radius: 24px;position: relative;margin-bottom: 14px;background-color: #00000069;}
   .tab-wrapper .tab-info p{font-size: 17px; font-weight: 500;color: #fff;}
+  .tab-wrapper .tab-info p:last-child {border: 2px dashed #fff;padding: 10px;display: inline-block;}
   .tab-wrapper .tab-info::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'FontAwesome';right: 3%;bottom: 1%;color:#fff;}
   .tab-wrapper .tab-info::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'FontAwesome';left: 2%;top: 0%;color:#fff;}
   .tab-wrapper .tab-img h4{ text-align: center; left: 22px;bottom: 22px;right: 38px;position: absolute;margin: 0;background: #fff;color: #000;padding: 10px;border-radius: 10px;border: 2px solid rgba(250, 250, 250, 0.5);}
   .tab-wrapper .tab-img h4 small {font-size: 11px;display: block;margin-top: 5px;color: #02adc4;}
 
   .team-sec{position: relative;padding: 30px 0 80px;}
-  .team-sec .team-box::before {background-image: url(images/management-1.png);background-size: cover;background-position: center;background-repeat: no-repeat;content: "";position: absolute;top: 0px;left: 0px;z-index: 2;width: 39%;height: 100%;}
-  .team-sec .team-box {position: relative;}
-  .team-sec .team-box .box {position: relative;padding: 95px 20px 5px 40%;min-height: 480px;}  
-  .team-sec .team-box .box h3{  color: #01a0c7;margin-bottom: 28px;text-transform: uppercase;text-align: left;}
+  /* .team-sec .team-box::before {background-image: url(images/management-1.png);background-size: cover;background-position: center;background-repeat: no-repeat;content: "";position: absolute;top: 0px;left: 0px;z-index: 2;width: 39%;height: 100%;} */
+  .team-sec .team-box .box {position: relative;display: flex;align-items: center;flex-wrap: wrap;}  
+  .team-sec .team-box .box h3{  color: #01a0c7;margin-bottom: 28px;text-transform: uppercase;text-align: left;font-size: 32px;}
   .team-sec .team-box .box p{color: #000;text-align: left;font-size: 16px;}
-  .team-sec .team-box figure{position: relative;}
-  .team-sec .team-box img{width: 280px;}
-  .team-sec .team-box .team-info{  padding: 0 15px 10px;width: auto;}
+  .team-sec .team-box figure{position: relative;padding-right:15px ;text-align: left;margin: 0;}
+  .team-sec .team-box img{width: 490px;}
+  .team-sec .team-box .team-info{padding-left: 15px;}
   .team-sec .team-box small { font-size: 14px;display: block;margin-top: 5px;color: #000;text-align: left;}
 
-  .team-sec .team-box:last-child::after {background-image: url(images/management-2.png);background-size: cover;background-position: center;background-repeat: no-repeat;content: "";position: absolute;top: 0px;right: 0px;z-index: 2;width: 39%;height: 100%;}
-  .team-sec .team-box:last-child::before{display: none;}
-  .team-sec .team-box:last-child .box {padding: 95px 40% 5px 20px;text-align: right;}  
-  .team-sec .team-box:last-child small {text-align: right;}
-  .team-sec .team-box:last-child p{text-align: right;}
-  .team-sec .team-box:last-child h3{text-align: end;}
+  /* .team-sec .team-box:last-child::after {background-image: url(images/management-2.png);background-size: cover;background-position: center;background-repeat: no-repeat;content: "";position: absolute;top: 0px;right: 0px;z-index: 2;width: 39%;height: 100%;} */
+  .team-sec .team-box:nth-child(3) .box{flex-direction: row-reverse;}
+  .team-sec .team-box:nth-child(3) figure{text-align: end;padding: 0 0 0 15px ;}
+  .team-sec .team-box:nth-child(3) .team-info h3,  .team-sec .team-box:nth-child(3) .team-info small,  .team-sec .team-box:nth-child(3) .team-info p{text-align: end;}
+  .team-sec .team-box:nth-child(3) .team-info{padding: 0 15px 0 0;}
 
-  .c2c-india-sec {padding: 30px 0 70px;background: #fff;position: relative;}
+  .c2c-india-sec {padding: 80px 0 70px;background: #fbfbfb;position: relative;}
   .c2c-india-sec h2{color: #000;}
   .c2c-india-sec .abt-head h2{margin-bottom: 40px;}
   .c2c-india-sec .col-sm-3{padding: 0 10px;}
@@ -1078,8 +1075,3 @@ span.sr-only { position: absolute; }
    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {max-width: 1360px;}	
 
 }
-
-
-
-
-
