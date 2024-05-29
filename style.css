@@ -247,7 +247,8 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .philosophy-sec h2{color: #fff;text-align: center;}
   .philosophy-sec p span{display: block;text-align: center;font-size: 24px;font-weight: 800;color: #00ccff;padding: 15px 0;}
   .philosophy-sec p{text-align: center;}
-  .philosophy-sec h3{text-align: center;margin-bottom: 26px;color: #00ccff;}
+  .philosophy-sec h3{text-align: center;margin-bottom: 26px;color: #fff;}
+  .philosophy-sec h3 span{color:#00ccff ;}
   .philosophy-sec .philosophy-left, .philosophy-sec .philosophy-right{text-align: center;padding: 30px 15px;}
   .philosophy-sec .philosophy-left p, .philosophy-sec .philosophy-right p{text-align: center;line-height:26px;font-size: 16px;font-weight: 600;color: #fff;} 
   .philosophy-sec .philosophy-left::after{content:"";height: 100%;width: 1px;background-color: transparent;position: absolute;top: 0;right: -15px;background-image: linear-gradient(358deg, #00a0c8 0%, #09D0BC 100%);}
@@ -466,28 +467,20 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .quote-tag .row {position: relative;margin: 0;padding: 60px 50px 50px;background-color: #006f8a;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;overflow: hidden;align-items: center;}  
   .quote-tag .row::before {content: "";position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;background-image: url("images/school-building.jpg");background-repeat: no-repeat;background-position: center center;background-size: cover;opacity: 0.3;/* filter: blur(0px); */background-attachment: fixed;}
   .quote-tag  .row > *{position:relative; z-index: 3;}
-  .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 24px;}
+  .quote-tag h2{color:#fff; position: relative; text-transform:capitalize; margin: 0 0 24px;font-size: 26px;}
   .quote-tag h2 span{color:#fff; display: block; font-size: 16px; text-transform: capitalize; margin: 10px 0 0;}
-  .quote-tag h3{color: #fff;font-size: 30px;margin: 0 0 30px;}
   .quote-tag .info{position: relative; font-size: 16px; margin: 0; padding:16px 0 0px;}
   .quote-tag h4{color:#fff; position: relative; text-transform:capitalize; padding: 15px 0 0; margin: 0;}
   .quote-tag h4 span{color:#fff; font-family: 'MonaSansExpandedRegular'; display: block; font-size: 16px; text-transform: capitalize; margin: 5px 0 0;}
   .quote-tag p{line-height: 26px;color: #fff;}
-  /* .quote-tag .info .fa-solid{font-size: 50px;}
-  .quote-tag .info .fa-quote-left{position: absolute; left: 0; top: 0;}
-  .quote-tag .info .fa-quote-right{position: absolute; right: 0; bottom: 0;} */
   .quote-tag .left{position: relative;padding: 0 30px 0 10px;}
-  .quote-tag .left .main img {border-radius: 14px;width: 100%;object-fit: cover;}
+  .quote-tag .left .main img {border-radius: 14px;width: 100%;object-fit: cover;scale: 1;transition: all 0.5s ease;}
   .quote-tag .left p {background: #fff;color: #949494;padding: 18px;text-align: left;font-size: 13px;position: absolute;bottom: -32px;width: 82%;line-height: 18px;right: 0;left: 28px;border-radius: 12px;border:3px solid #03aec5;}
   .quote-tag .left p span {display: block;font-size: 18px;font-weight: 700;color: #09cebc;margin-bottom: 5px;}
   .quote-tag .right .sd-logo  {display: flex;gap: 30px;justify-content: space-between;}
+  .quote-tag .main{overflow: hidden;border-radius: 10px;}
+  .quote-tag .main img:hover{scale: 1.1; transition: all 0.5s ease;}
 
-
-  .quote-tag .quote-box {position: relative;border: 2px solid #fff;padding: 25px 60px;font-size: 16px;text-align: center;font-weight: 600;letter-spacing: 1.5px;background: rgba(250, 250, 250, 0.3);border-radius: 30px;margin-bottom: 26px;}
-  .quote-tag .quote-box span{display: block;}
-  .quote-tag .quote-box::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';right: 1%;bottom: 10%;}
-  .quote-tag .quote-box::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'Font Awesome 6 Free';left: 1%;top: 10%;}
-  .quote-tag .info img {width: 148px;margin-bottom: 18px;}
 
 .client-speak{padding:80px 0 70px; position:relative; z-index:2;}   
   .client-speak h2{color:#00a0c8; position: relative; text-transform:capitalize; margin: 0 0 30px;}
@@ -842,16 +835,26 @@ span.sr-only { position: absolute; }
   .about-page .row:nth-child(2n){flex-direction: row-reverse;}
   .about-page .about-head-left{padding: 0 30px 0 15px;}
   .about-page .row:nth-child(2n) .about-head-left{ padding: 0 15px 0 30px;}
-  .about-page .row:last-child .about-head-right img{border: 1px solid #e0e0e0;}
+  .about-page .row:last-child .about-head-right img{border: 1px solid #e0e0e0;scale: 1;transition: all 0.5s ease;}
   .about-page .about-page-info{padding: 0 0 0 15px;}
   .about-page .about-page-info li{list-style: disc; margin: 0 0 5px;}
+  .about-page .about-page-info.api-2 {margin-top: 15px;}
   .about-page .about-page-info.api-2 li{list-style: none;}
   .about-page .about-page-info li span{color: #00a0c8; font-family: 'MonaSansExpandedSemiBold';}
+  .about-page .fan-icon{padding: 0;}
+  .about-page .fan-icon li {list-style: none;position: relative;display: inline-block;padding: 6px 0 6px 30px;text-align: left;margin-bottom: 3px;}
+  .about-page .fan-icon li::before {content: '';background-image: url(images/hand-fan.png);position: absolute;width: 20px;height: 20px;background-size: cover;background-repeat: no-repeat;left: 0;top: 8px;}
+  .about-page .list-icon li{list-style: disc;}
+  .about-page .list-icon li a:hover{color: #000;font-weight: 400;}
+  .about-page .list-icon{padding: 0 0 0 15px;margin-top: 15px;}
+  .about-page .figure{overflow: hidden;border-radius: 15px;}
+  .about-page .figure img:hover{scale: 1.2;transition: all 0.5s ease;}
 
   .mid-inner .about-page ol li::before{content: counters(section, ".") " . "; counter-increment: section;color: #00a0c8;}
   .mid-inner .about-page ol li a{color: #00a0c8;font-weight: 600;}
   .mid-inner .about-page ol li a:hover{color: #000;}
   .mid-inner .about-page ol li:hover::before{color: #000;}
+
 
   .about-stand-sec{position: relative;background-position: center;background-repeat: no-repeat;padding: 80px 0 70px;}
   .about-stand-sec p span{display: block;color: #00a0c8;font-size: 16px;font-weight: 600;margin: 0;}
@@ -860,21 +863,22 @@ span.sr-only { position: absolute; }
 
 
   .tab-wrapper {position: relative;padding: 170px 0 50px;}
-  .tab-wrapper .row {position: relative;border-radius: 30px;background-color: #d9f2f7;align-items: center; padding: 70px 50px 50px;background-image:url(images/chairman-ban.jpeg);background-size: cover; background-position: center 35%;background-attachment:fixed ;background-repeat: no-repeat;}
+  .tab-wrapper .row {position: relative;border-radius: 30px;background-color: #d9f2f7;align-items: center; padding: 70px 50px 50px;background-image:url(images/chairman-bg.png);background-size: cover; background-position: center 60%;background-attachment:fixed ;background-repeat: no-repeat;}
   .tab-wrapper .row::before{content: "";width: 100%;height: 100%;left: 0;top: 0;position: absolute;background-color: #000;border-radius: 30px;opacity: 0.55;}
   .tab-wrapper  .right h2 {color: #00a0c8;margin-bottom: 100px;margin-top: -155px;}
   .tab-wrapper  .tab-img {margin-bottom: 0;margin-top: -150px;position: relative;padding: 0 15px 0 0;display: block;}
   .tab-wrapper  .tab-img img {border-radius: 20px;height: 470px;width: 100%;object-fit: cover;object-position: center 46%;border: 10px solid #00a0c8;}
   .tab-wrapper .right{padding: 0 50px 0 0px;position: relative;}
-  .tab-wrapper .tab-info {padding: 50px 50px 30px 50px;border: 3px solid #fff;border-radius: 24px;position: relative;margin-bottom: 14px;background-color: #00000069;}
-  .tab-wrapper .tab-info p{font-size: 17px; font-weight: 500;color: #fff;}
-  .tab-wrapper .tab-info p:last-child {border: 2px dashed #fff;padding: 10px;display: inline-block;}
-  .tab-wrapper .tab-info::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'FontAwesome';right: 3%;bottom: 1%;color:#fff;}
-  .tab-wrapper .tab-info::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'FontAwesome';left: 2%;top: 0%;color:#fff;}
+  .tab-wrapper .tab-info {padding: 50px 50px 30px 50px;border: 3px solid #00a0c8;border-radius: 24px;position: relative;margin-bottom: 14px;background-color: #ffff;}
+  .tab-wrapper .tab-info p{font-size: 17px; font-weight: 500;color: #000000;}
+  .tab-wrapper .tab-info::after {content: "\f10e";font-size: 40px;position: absolute;font-family: 'FontAwesome';right: 3%;bottom: 1%;color:#000;}
+  .tab-wrapper .tab-info::before {content: "\f10d";font-size: 40px;position: absolute;font-family: 'FontAwesome';left: 2%;top: 0%;color:#000;}
   .tab-wrapper .tab-img h4{ text-align: center; left: 22px;bottom: 22px;right: 38px;position: absolute;margin: 0;background: #fff;color: #000;padding: 10px;border-radius: 10px;border: 2px solid rgba(250, 250, 250, 0.5);}
   .tab-wrapper .tab-img h4 small {font-size: 11px;display: block;margin-top: 5px;color: #02adc4;}
-  .tab-wrapper p span{display: block;font-size: 14px;}
-  .tab-wrapper p:last-child{font-size: 22px;line-height: 28px;}
+  .tab-wrapper p span{display: block;font-size: 14px;color: #000;}
+  .tab-wrapper .tab-info p:last-child {padding: 10px;display: inline-block;color: #00a0c8;background-color: #fff;font-size: 26px;border: 2px dashed #fff;}
+
+
 
   .team-sec{position: relative;padding: 30px 0 80px;}
   /* .team-sec .team-box::before {background-image: url(images/management-1.png);background-size: cover;background-position: center;background-repeat: no-repeat;content: "";position: absolute;top: 0px;left: 0px;z-index: 2;width: 39%;height: 100%;} */
