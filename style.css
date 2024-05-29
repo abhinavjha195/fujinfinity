@@ -844,7 +844,7 @@ span.sr-only { position: absolute; }
   .about-page .fan-icon{padding: 0;}
   .about-page .fan-icon li {list-style: none;position: relative;display: block;padding: 6px 0 6px 30px;text-align: left;margin-bottom: 3px;}
   .about-page .fan-icon li::before {content: '';background-image: url(images/hand-fan.png);position: absolute;width: 20px;height: 20px;background-size: cover;background-repeat: no-repeat;left: 0;top: 8px;}
-  /* .about-page .list-icon li{list-style: disc;} */
+  .about-page .list-icon li{list-style: disc;}
   .about-page .list-icon li a:hover{color: #000;font-weight: 400;}
   .about-page .list-icon{padding: 0 0 0 15px;margin-top: 15px;}
   .about-page .about-head-right figure{overflow: hidden;border-radius: 15px;}
