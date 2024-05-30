@@ -883,12 +883,12 @@ span.sr-only { position: absolute; }
   .team-sec{position: relative;padding: 30px 0 80px;}
   /* .team-sec .team-box::before {background-image: url(images/management-1.png);background-size: cover;background-position: center;background-repeat: no-repeat;content: "";position: absolute;top: 0px;left: 0px;z-index: 2;width: 39%;height: 100%;} */
   .team-sec .team-box .box {position: relative;display: flex;align-items: center;flex-wrap: wrap;}  
-  .team-sec .team-box .box h3{  color: #01a0c7;margin-bottom: 28px;text-transform: capitalize;text-align: left;font-size: 32px;}
+  .team-sec .team-box .box h3{  color: #01a0c7;margin-bottom: 28px;text-transform: capitalize;text-align: left;font-size: 32px;font-family: 'MonaSansExpandedMedium';}
   .team-sec .team-box .box p{color: #000;text-align: left;font-size: 16px;}
   .team-sec .team-box figure{position: relative;padding-right:15px ;text-align: left;margin: 0;}
   .team-sec .team-box img{width: 490px;}
   .team-sec .team-box .team-info{padding-left: 15px;}
-  .team-sec .team-box small { font-size: 14px;display: block;margin-top: 5px;color: #000;text-align: left;letter-spacing: 0.5px;}
+  .team-sec .team-box small { font-size: 14px;display: block;margin-top: 5px;color: #000;text-align: left;letter-spacing: 0.5px;font-weight: 600;font-family: 'MonaSansExpandedRegular';}
 
   /* .team-sec .team-box:last-child::after {background-image: url(images/management-2.png);background-size: cover;background-position: center;background-repeat: no-repeat;content: "";position: absolute;top: 0px;right: 0px;z-index: 2;width: 39%;height: 100%;} */
   .team-sec .team-box:nth-child(3) .box{flex-direction: row-reverse;}
