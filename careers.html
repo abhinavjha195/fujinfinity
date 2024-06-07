@@ -75,14 +75,21 @@ jQuery(window).scroll(function() {
 		  <ul class="links">				  
             <li class="main-menu"><a href="about-us.html">About Us</a>
               <ul class="sub-menu">
-                <li><a href="">Our Journey</a></li>
-                <li><a href="">Philosophy, Vision and Mission</a></li>
-                <li><a href="">Chairman's Message</a></li>
-                <li><a href="">C2C India</a></li>
+                <li><a href="about-us.html#our-journey">Our Journey</a></li>
+                <li><a href="about-us.html#philosophy-vision-mission">Philosophy, Vision and Mission</a></li>
+                <li><a href="about-us.html#chairman-message">Chairman's Message</a></li>
+                <li><a href="about-us.html#C2C-india">C2C India</a></li>
               </ul>
             </li>		  
             <li class="main-menu"><a href="#">Schools In India</a></li>		  
-            <li class="main-menu"><a href="connect-with-us.html">Connect With Us</a></li>		  
+            <li class="main-menu"><a>Contact With us</a>
+              <ul class="sub-menu">
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="image-gallery.html">Image Gallery</a></li>
+                <li><a href="global-news-network.html">Global News Network</a></li>
+                <li><a href="connect-us.html">Connect Us</a></li>
+              </ul>
+            </li>	  
           </ul>
         </div>
 		
@@ -347,6 +354,30 @@ jQuery(window).scroll(function() {
  <script src="js/owl.carousel.min.js"></script>
  <script type="text/javascript" src="js/timeline.min.js"></script>
  
+ <script>
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 150
+    }, 500);
+});
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
  <script>
      timeline(document.querySelectorAll('.timeline'), {
        forceVerticalMode: 700,
