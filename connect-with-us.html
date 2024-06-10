@@ -1,634 +1,444 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>C2C Global Education India</title>
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>C2C Global Education India</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-  <!-- Custom CSS -->
-  <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-
-  <!--If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">	
+	
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    
+    <!--If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
         Slide effect: slide, fade
         Text Align: slide_style_center, slide_style_left, slide_style_right
         Add Text Animation: https://daneden.github.io/animate.css/
         -->
 
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif]-->   
 
-  <script>
-    jQuery(window).scroll(function () {
-      if (jQuery(this).scrollTop() > 20) {
+<script>
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 20){  
         jQuery('.header').addClass("sticky");
-      }
-      else {
+    }
+    else{
         jQuery('.header').removeClass("sticky");
-      }
-    });
+    }
+});
 
-    jQuery(window).scroll(function () {
-      if (jQuery(this).scrollTop() > 20) {
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 20){  
         jQuery('.back-to-top').addClass("scroll");
-      }
-      else {
+    }
+    else{
         jQuery('.back-to-top').removeClass("scroll");
-      }
-    });
-  </script>
+    }
+});
+</script>
 
-
+	
 </head>
-
 <body>
-  <header class="header">
-    <nav>
-      <div class="container">
-        <div class="navbar">
-
-          <i class='fa fa-navicon bx bx-menu'></i>
-          <div class="logo"><a href="index.html"><img src="images/logo.png" al="image"></a></div>
-
-          <div class="nav-links">
-
-            <div class="sidebar-logo">
-              <span class="logo-name"><img src="images/logo.png" al="image"></span>
-              <i class="fa-solid fa-xmark bx bx-x"></i>
-            </div>
-
-            <ul class="links">
-              <li class="main-menu"><a href="about-us.html">About Us</a>
-                <ul class="sub-menu">
-                  <li><a href="">Our Journey</a></li>
-                  <li><a href="">Philosophy, Vision and Mission</a></li>
-                  <li><a href="">Chairman's Message</a></li>
-                  <li><a href="">C2C India</a></li>
-                </ul>
-              </li>
-              <li class="main-menu"><a href="#">Schools In India</a></li>
-              <li class="main-menu"><a href="connect-with-us.html">Connect With Us</a></li>
-            </ul>
-          </div>
-
-          <div class="phone-call"><a href="tel:(833) 659-7676" class="btn"> Group Website</a>
-            <div class="nav-right"><img src="images/japan-flag.jpg" alt=""><img src="images/india-flag.jpg" alt=""><img
-                src="images/Vietnam-flag.jpg" alt=""><img src="images/china-flag.jpg" alt=""><img
-                src="images/usa-flag.jpg" alt=""></div>
-          </div>
-        </div>
-      </div><!--/ container -->
-
-    </nav><!--/ nac -->
-  </header>
-
-  <section class="banner-inner">
-    <div class="textblock">
-      <div class="block">
-        <div class="container">
-
-          <div class="page-title">
-            <div class="holder">
-              <h1>Connect With Us
-            </div>
-          </div><!--/ page-title -->
-
-        </div><!--/ block -->
-      </div>
-    </div>
-  </section><!--/ banner-inner -->
-
-  <section class="mid-inner">
+<header class="header">    
+  <nav>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 full-wrap">
-
-          <div class="contact-wrap">
-            <div class="row">
-              <div class="col-sm-7 contact-left mrb-30">
-                <h2>Stay Connected <span>With C2C India</span></h2>
-                <h5>At C2C Global Education India, we cherish every opportunity to connect with you.</h5>
-                <p>Whether you have questions about our programmes, want to explore career opportunities, or simply wish
-                  to learn more about our educational initiatives, we're here to assist you. Reach out to us via phone
-                  or email, and stay updated with our latest news and insights by following us on social media. Your
-                  engagement and feedback are invaluable to us as we strive to create a transformative educational
-                  experience for all.</p>
-
-                <address>
-                  <div class="contact-box">
-                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
-                    <div class="content">
-                      <p><span>Our Phone Number</span> <a href="tel:011-4165 3754">011-4165 3754</a></p>
-                    </div>
-                  </div>
-
-                  <div class="contact-box">
-                    <div class="icon"><i class="fa-regular fa-envelope"></i></div>
-                    <div class="content">
-                      <p><span>Write To Us</span> <a href="mailto:info@c2cindia.in">info@c2cindia.in</a></p>
-                    </div>
-                  </div>
-
-                  <div class="contact-box">
-                    <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
-                    <div class="content">
-                      <p><span>Visit Us</span> C2C Global Education India 225, DLF South Court Mall, Saket District
-                        Centre, District Centre, Sector 6, Saket, New Delhi, Delhi 110017</p>
-                    </div>
-                  </div>
-                </address>
-              </div>
-
-              <div class="col-sm-5 contact-right mrb-50">
-                <div class="contact-padd">
-                  <h3>let’s start the magic!</h3>
-                  <form>
-                    <div class="form-group"><input class="form-control" placeholder="Full Name :" type="text"></div>
-
-                    <div class="form-group"><input class="form-control" placeholder="Phone Number :" type="text"></div>
-
-                    <div class="form-group"><input class="form-control" placeholder="E-mail Address:" type="text"></div>
-
-                    <div class="form-group"><textarea class="form-control"
-                        placeholder="Additional Information :"></textarea></div>
-
-                    <div class="form-group"><input class="btn" value="Submit Now" type="submit"></div>
-                  </form>
-                </div><!--/ -->
-              </div><!--/ col-sm-6 -->
-
-            </div><!--/ row -->
-          </div><!--/ contact-wrap -->
-
-        </div><!--/ full-wrap -->
-      </div><!--/ row -->
-    </div>
-  </section><!--/ mid-wrap -->
-
-  <div class="careers-page">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-  
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Admissions/Outreach
-                Manager</button>
-            </li>
-  
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Centre Head/PYP
-                Coordinator</button>
-            </li>
+      <div class="navbar">
+        
+		<i class='fa fa-navicon bx bx-menu'></i>
+	    <div class="logo"><a href="index.html"><img src="images/logo.png" al="image"></a></div>
+		
+        <div class="nav-links">
+	    
+		  <div class="sidebar-logo">
+		    <span class="logo-name"><img src="images/logo.png" al="image"></span>
+            <i class="fa-solid fa-xmark bx bx-x"></i>
+		  </div>
+		  
+		  <ul class="links">				  
+            <li class="main-menu"><a href="about-us.html">About Us</a>
+              <ul class="sub-menu">
+                <li><a href="about-us.html#our-journey">Our Journey</a></li>
+                <li><a href="about-us.html#philosophy-vision-mission">Philosophy, Vision and Mission</a></li>
+                <li><a href="about-us.html#chairman-message">Chairman's Message</a></li>
+                <li><a href="about-us.html#C2C-india">C2C India</a></li>
+              </ul>
+            </li>		  
+            <li class="main-menu"><a href="#">Schools In India</a></li>		  
+            <li class="main-menu"><a>Contact With us</a>
+              <ul class="sub-menu">
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="image-gallery.html">Image Gallery</a></li>
+                <li><a href="global-news-network.html">Global News Network</a></li>
+                <li><a href="connect-us.html">Connect Us</a></li>
+              </ul>
+            </li>	  
           </ul>
-  
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-              tabindex="0">
-              <h3>Outreach Manager / Admissions Manager</h3>
-              <p>C2C Global Education India Pvt Ltd, a subsidiary of C2C Global Education Group, Japan plans to establish
-                premium preschools in major cities across India.</p>
-              <p>Our parent company owns and operates Yamanashi Gakuin University (established in 1946) in Kofu, Japan, as
-                well as an IB school, an award-winning kindergarten (established in 1950), and preschools across Japan and
-                in China and Vietnam. We will shortly be entering the US market.</p>
-              <p>Fuji Infinity International Preschools integrate the practices and values of Japanese preschools with the
-                globally accepted IB PYP framework. As we embark on our journey in India, we are committed to redefining
-                learning through a blend of tradition and innovation.</p>
-              <p>Our first preschool will start in Vasant Kunj, South Delhi in 2024. We are looking for an Outreach
-                Manager to lead our marketing and admissions effort.</p>
-              <h4>Key Responsibilities</h4>
-              <ul>
-                <li>Create and execute compelling plans to attract students and achieve maximum enrollment.</li>
-                <li>Organize visits to the campus, arrange information sessions, and oversee the school's online
-                  enrollment system.</li>
-                <li>Establish strong and positive connections with community groups, businesses, and embassies to increase
-                  visibility and support for the school.</li>
-                <li>Be the main point of contact for families interested in our preschool, providing assistance and
-                  guidance.</li>
-                <li>Respond promptly to admissions inquiries via phone, email, via the website, or in person.</li>
-                <li>Develop, maintain and review admissions workflow processes to ensure maximum efficiency.</li>
-              </ul>
-  
-              <div class="row row-grid">
-  
-                <div class="col-sm-6 mrb-30">
-                  <div class="inner">
-                    <h4>Experience and Skills</h4>
-                    <ul>
-                      <li>Passion for building relationships</li>
-                      <li>Customer service experience</li>
-                      <li>Excellent communication and organisational skills</li>
-                      <li>Strong sales focus and integrity</li>
-                      <li>Ability to work independently and in a team</li>
-                      <li>Educational background preferred</li>
-                      <li>Flexibility to travel and work evenings/weekends</li>
-                    </ul>
-                  </div>
-                </div><!--/ col -->
-  
-                <div class="col-sm-6 mrb-30">
-                  <div class="inner">
-                    <h4>Qualifications</h4>
-                    <ul>
-                      <li>Degree/diploma in Marketing/Public Relations/Hospitality or equivalent</li>
-                      <li>At least 3 years of relevant management experience, preferably in admissions at a premium
-                        international school</li>
-                      <li>Proficiency in data analytics</li>
-                    </ul>
-                  </div>
-                </div><!--/ col -->
-  
-              </div><!--/ row-grid -->
-            </div><!--/ tab-pane -->
-  
-            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-              <h3>Centre Head & Ib Pyp Early Years Coordinator</h3>
-              <p>C2C Global Education India Pvt Ltd, a subsidiary of C2C Global Education Group, Japan plans to establish
-                premium preschools in major cities across India.</p>
-              <p>Our parent company owns and operates Yamanashi Gakuin University (established in 1946) in Kofu, Japan, as
-                well as an IB school, an award-winning kindergarten (established in 1950), and preschools across Japan and
-                in China and Vietnam. We will shortly be entering the US market.</p>
-              <p>Fuji Infinity International Preschools integrates the practices and values of Japanese preschools with
-                the globally accepted IB PYP framework. As we embark on our journey in India, we are committed to
-                redefining learning through a blend of tradition and innovation.</p>
-              <p>Our first preschool will start in Vasant Kunj, South Delhi in 2024. We are looking for a Centre Head and
-                IB PYP Early Years Coordinator to lead our first preschool.</p>
-              <h4>Roles and Responsibility</h4>
-              <p>The Centre Head & IB PYP Early Years Coordinator is responsible for the planning, development, and
-                day-to-day administration of the preschool’s educational program. S/he will be responsible for the IB PYP
-                Early Years candidacy and authorization. S/he is expected to have exceptional communication skills,
-                leadership abilities, and analytical and creative thinking skills, in addition to having a genuine love
-                for children. The Centre Head & IB PYP Early Years Coordinator will report to the CEO, C2C Global
-                Education India Pvt Ltd, New Delhi.</p>
-              <h4>Leadership</h4>
-              <ul>
-                <li>Academic and administrative leadership of the preschool.</li>
-                <li>Devise strategies and policies for the development of the preschool in keeping with the philosophy of
-                  C2C Global Education and the IB.</li>
-                <li>Coordinator for the IB PYP Early Years candidacy process, ensuring that authorization is received as
-                  soon as possible.</li>
-                <li>Guide teachers to ensure the proper understanding of the IB PYP Early Years practices and
-                  implementation of the program.</li>
-                <li>Ensure that all members of the staff are effectively informed on matters of school policy.</li>
-                <li>Lead the staff with energy, flair, and commitment, enabling them to feel professionally valued, clear
-                  about what is expected of them, and purposefully engaged in teamwork for school improvement</li>
-                <li>Plan and manage the annual budget.</li>
-              </ul>
-  
-              <h4>Academics</h4>
-              <ul>
-                <li>Oversee the development of a high quality IB PYP Early Years curriculum for the preschool.</li>
-                <li>Plan the scope and sequence for the different subjects.</li>
-                <li>Planning and implementation of the program of inquiry.</li>
-                <li>Horizontal and vertical alignment of all curricular standards.</li>
-                <li>Professional development of teachers.</li>
-                <li>Planning for resources needed for the successful implementation of the IB PYP Early Years programme.
-                </li>
-                <li>Work closely with the learning support team to ensure inclusive education.</li>
-              </ul>
-  
-              <h4>Communication</h4>
-              <ul>
-                <li>Effective marketing of the preschool, and overall responsibility for the admissions process.</li>
-                <li>Establish and maintain strong relationships with parents, ensuring that they are kept informed of
-                  student progress through regular and effective communication.</li>
-              </ul>
-  
-              <h4>Recruitment, Retention, Professional Development</h4>
-              <ul>
-                <li>Recruitment of faculty and staff.</li>
-                <li>Organize an effective induction program for new faculty.</li>
-                <li>Ensure that all EYP faculty and staff are appraised in accordance with school policy.</li>
-                <li>Dealing effectively and decisively with instances of unacceptable or sub-standard professional
-                  practice.</li>
-                <li>Plan for the regular professional development of the faculty.</li>
-              </ul>
-  
-              <h4>Inclusive Education and Safeguarding</h4>
-              <ul>
-                <li>Working closely with the learning support team to ensure inclusive education.</li>
-                <li>Ensuring that top priority is given to child protection and safeguarding of students.</li>
-                <li>Supervision of the welfare of pupils - their safety, physical and mental health, regular medical
-                  inspections etc. In this context, the Centre Head & EYP Coordinator should be fully conversant with the
-                  following:</li>
-                <li>Right of Children to Free and Compulsory Education Act, 2009 (RTE-2009)</li>
-                <li>Prevention of Children from Sexual Offences Act, 2012 (POCSO)</li>
-                <li>Other relevant Acts and Statutes of both the local State Government and the Government of India</li>
-              </ul>
-  
-              <div class="row row-grid">
-  
-                <div class="col-sm-6 mrb-30">
-                  <div class="inner">
-                    <h4>Experience</h4>
-                    <ul>
-                      <li>At least five years of previous relevant IB PYP Early Years’ experience, of which at least two
-                        years should have been in a leadership position.</li>
-                      <li>Experience of the IB PYP authorization will be an advantage.</li>
-                    </ul>
-                  </div>
-                </div><!--/ col -->
-  
-                <div class="col-sm-6 mrb-30">
-                  <div class="inner">
-                    <h4>Qualifications</h4>
-                    <ul>
-                      <li>A Master's degree</li>
-                      <li>A professional Early Years teaching qualification.</li>
-                    </ul>
-                  </div>
-                </div><!--/ col -->
-  
-              </div><!--/ row-grid -->
-            </div><!--/ tab-pane -->
-          </div><!--/ tab-content -->
-  
         </div>
-        <div class="col-sm-12 contact-bottom">
-          <div class="map-padd">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.398314841315!2d77.21815767549694!3d28.52774507572217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce132e5315d93%3A0x9d5ad20c96f5b03b!2sC2C%20GLOBAL%20EDUCATION%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1717479607617!5m2!1sen!2sin"
-              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div><!--/ -->
-        </div><!--/ col-sm-12 -->
-      </div><!--/ row -->
+		
+		<div class="phone-call"><a href="tel:(833) 659-7676" class="btn"> Group Website</a>
+		<div class="nav-right"><img src="images/japan-flag.jpg" alt=""><img src="images/india-flag.jpg" alt=""><img src="images/Vietnam-flag.jpg" alt=""><img src="images/china-flag.jpg" alt=""><img src="images/usa-flag.jpg" alt=""></div>	
+		</div>
+      </div>
+    </div><!--/ container -->
+	
+  </nav><!--/ nac -->
+</header>
+
+<section class="banner-inner">
+  <div class="textblock">
+    <div class="block">
+	  <div class="container">
+	  
+	    <div class="page-title">
+          <div class="holder"><h1>Connect With Us</div>
+        </div><!--/ page-title -->
+	  
+	  </div><!--/ block -->
     </div>
-  </div><!--/ careers-page -->
+  </div>
+</section><!--/ banner-inner -->
 
-
-  <footer class="footer">
-    <div class="back-to-top scroll"><a href="#Home" class="BackTo"><i class="fa fa-angle-double-up"
-          aria-hidden="true"></i></a></div>
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-12 footer-top hidden">
-          <div class="wg-1">
-            <div class="ft-logo"><a href="#"><img src="images/logo.png" alt="image"></a></div>
-
-            <div class="icon-ft">
-              <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-          </div><!--/ wg-1 -->
-        </div><!--/ col-sm-3 -->
-
-        <div class="col-sm-9 footer-left">
+<section class="mid-inner">
+  <div class="container">    
+    <div class="row">
+	  <div class="col-sm-12 full-wrap">
+	    
+		<div class="contact-wrap">
           <div class="row">
+		    <div class="col-sm-7 contact-left mrb-30">
+			  <h2>Stay Connected <span>With C2C India</span></h2>
+			  <h5>At C2C Global Education India, we cherish every opportunity to connect with you.</h5>
+			  <p>Whether you have questions about our programmes, want to explore career opportunities, or simply wish to learn more about our educational initiatives, we're here to assist you. Reach out to us via phone or email, and stay updated with our latest news and insights by following us on social media. Your engagement and feedback are invaluable to us as we strive to create a transformative educational experience for all.</p>
+			  
+			  <address>
+			    <div class="contact-box">
+				  <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+				  <div class="content"><p><span>Our Phone Number</span> <a href="tel:011-4165 3754">011-4165 3754</a></p></div>
+				</div>
+				
+				<div class="contact-box">
+				  <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+				  <div class="content"><p><span>Write To Us</span> <a href="mailto:info@c2cindia.in">info@c2cindia.in</a></p></div>
+				</div>
+				
+				<div class="contact-box">
+				  <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+				  <div class="content"><p><span>Visit Us</span> C2C Global Education India 225, DLF South Court Mall, Saket District Centre, District Centre, Sector 6, Saket, New Delhi, Delhi 110017</p></div>
+				</div>
+			  </address>
+			</div>
+			
+			<div class="col-sm-5 contact-right mrb-50">
+			  <div class="contact-padd">
+			    <h3>let’s start the magic!</h3>
+				<form>
+				  <div class="form-group"><input class="form-control" placeholder="Full Name :" type="text"></div>
+				  
+				  <div class="form-group"><input class="form-control" placeholder="Phone Number :" type="text"></div>
+				  
+				  <div class="form-group"><input class="form-control" placeholder="E-mail Address:" type="text"></div>		
+				  
+				  <div class="form-group"><textarea class="form-control" placeholder="Additional Information :"></textarea></div>
+				  
+				  <div class="form-group"><input class="btn" value="Submit Now" type="submit"></div>
+				</form>
+			  </div><!--/ -->
+			</div><!--/ col-sm-6 -->
+			
+			<div class="col-sm-12 contact-bottom">
+			  <div class="map-padd">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.398314841315!2d77.21815767549694!3d28.52774507572217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce132e5315d93%3A0x9d5ad20c96f5b03b!2sC2C%20GLOBAL%20EDUCATION%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1717479607617!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			  </div><!--/ -->
+			</div><!--/ col-sm-6 -->
+		  
+          </div><!--/ row --> 
+		</div><!--/ contact-wrap -->
+	  
+	  </div><!--/ full-wrap -->
+    </div><!--/ row -->
+  </div>
+</section><!--/ mid-wrap -->
 
-            <div class="col-sm-4 aos-init" data-aos="fade-up" data-aos-duration="1000">
-              <div class="wg-1">
-                <h4>Quick Links</h4>
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Locations</a></li>
-                  <li><a href="#">Achievements</a></li>
-                  <li><a href="careers.html">Careers</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div><!--/ wg-1 -->
-            </div><!--/ col-sm -->
-
-            <div class="col-sm-1 aos-init" data-aos="fade-up" data-aos-duration="1000">
-            </div><!--/ col-sm -->
-
-            <div class="col-sm-5 aos-init" data-aos="fade-up" data-aos-duration="1000">
-              <div class="wg-1">
-                <h4>Connect with us</h4>
-                <address>
-                  <i class="fa-solid fa-location-dot"></i>
-                  <div>
-                    <p><b>Address:</b> 225, DLF South Court Mall, Saket, New Delhi, 110017 INDIA </p>
-                  </div>
-                </address>
-
-                <address>
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                  <div>
-                    <p><a href="tel:011-4165 3754">011-4165 3754</a></p>
-                  </div>
-                </address>
-
-                <address>
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <div>
-                    <p><a href="mailto:application@c2cge.com.cn">info@c2cindia.in</a></p>
-                  </div>
-                </address>
-              </div>
-            </div><!--/ col-sm -->
-
-          </div><!-- row -->
-        </div><!-- footer-left -->
-
-        <div class="col-sm-3 footer-right aos-init" data-aos="fade-up" data-aos-duration="1000">
-          <div class="wg-1">
-            <h4>Follow us </h4>
-            <div class="icon-ft">
-              <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <!--div class="newsletter">
+<footer class="footer">  
+    <div class="back-to-top scroll"><a href="#Home" class="BackTo"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></div>
+ 
+   <div class="container">
+   
+     <div class="row">
+       <div class="col-sm-12 footer-top hidden">
+         <div class="wg-1">
+           <div class="ft-logo"><a href="#"><img src="images/logo.png" alt="image"></a></div>
+           
+           <div class="icon-ft">
+             <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+             <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+             <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+             <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+             <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+           </div>
+         </div><!--/ wg-1 -->
+       </div><!--/ col-sm-3 -->
+     
+       <div class="col-sm-9 footer-left">
+         <div class="row">
+           
+           <div class="col-sm-4 aos-init" data-aos="fade-up" data-aos-duration="1000">
+             <div class="wg-1">
+               <h4>Quick Links</h4>
+               <ul>
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Our Locations</a></li>
+                 <li><a href="#">Achievements</a></li>
+                 <li><a href="careers.html">Careers</a></li>
+                 <li><a href="#">Contact Us</a></li>
+               </ul>
+             </div><!--/ wg-1 -->
+           </div><!--/ col-sm --> 
+           
+           <div class="col-sm-1 aos-init" data-aos="fade-up" data-aos-duration="1000">
+           </div><!--/ col-sm --> 
+           
+           <div class="col-sm-5 aos-init" data-aos="fade-up" data-aos-duration="1000">
+             <div class="wg-1">
+               <h4>Connect with us</h4>		          	  		
+                 <address>
+                   <i class="fa-solid fa-location-dot"></i>
+                   <div><p><b>Address:</b> 225, DLF South Court Mall, Saket, New Delhi, 110017 INDIA </p></div>
+                 </address>
+                 
+                 <address>
+                   <i class="fa fa-phone" aria-hidden="true"></i>
+                   <div><p><a href="tel:011-4165 3754">011-4165 3754</a></p></div>
+                 </address>
+                 
+                 <address>
+                   <i class="fa fa-envelope" aria-hidden="true"></i>
+                   <div><p><a href="mailto:application@c2cge.com.cn">info@c2cindia.in</a></p></div>
+                 </address>	
+             </div>
+           </div><!--/ col-sm -->
+            
+         </div><!-- row -->            
+       </div><!-- footer-left -->
+       
+       <div class="col-sm-3 footer-right aos-init" data-aos="fade-up" data-aos-duration="1000">
+         <div class="wg-1">
+           <h4>Follow us </h4>
+           <div class="icon-ft">
+             <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+             <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+             <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+             <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+           </div>
+           <!--div class="newsletter">
              <p>Looking For Ideas? Let's Talk.</p>
              <form>
                <div class="form-group"><input type="email" name="EMAIL" placeholder="Email Address" class="form-control"></div>
                <div class="form-group"><button type="submit" class="btn">Subscribe</button></div>
              </form>
            </div--><!--/ newsletter -->
-          </div><!--/ wg-1 -->
-        </div><!-- footer-right -->
+         </div><!--/ wg-1 -->
+       </div><!-- footer-right -->
+       
+     </div><!-- row -->            
+   </div><!--/ container -->       
+   
+   <div class="ft-bottom">
+     <div class="container">
+       <div class="row ft-row">
+         
+         <div class="col-sm-8 ft-left"><p class="copyright">Copyright © 2024 C2C All rights reserved | C2C India is a wholly owned subsidiary of C2C Global Education, Japan. </p></div>	
+         <div class="col-sm-4 ft-right"><img src="images/japan-flag.jpg" alt=""><img src="images/india-flag.jpg" alt=""><img src="images/Vietnam-flag.jpg" alt=""><img src="images/china-flag.jpg" alt=""><img src="images/usa-flag.jpg" alt=""></div>	
+ 
+       </div><!--/ row -->
+     </div>
+   </div><!--/ ft-bottom -->
+   
+ </footer>
+ 
+ <!-- Bootstrap Core JavaScript -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/owl.carousel.min.js"></script>
+ <script type="text/javascript" src="js/timeline.min.js"></script>
+ 
+ <script>
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
 
-      </div><!-- row -->
-    </div><!--/ container -->
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 150
+    }, 500);
+});
 
-    <div class="ft-bottom">
-      <div class="container">
-        <div class="row ft-row">
-
-          <div class="col-sm-8 ft-left">
-            <p class="copyright">Copyright © 2024 C2C All rights reserved | C2C India is a wholly owned subsidiary of
-              C2C Global Education, Japan. </p>
-          </div>
-          <div class="col-sm-4 ft-right"><img src="images/japan-flag.jpg" alt=""><img src="images/india-flag.jpg"
-              alt=""><img src="images/Vietnam-flag.jpg" alt=""><img src="images/china-flag.jpg" alt=""><img
-              src="images/usa-flag.jpg" alt=""></div>
-
-        </div><!--/ row -->
-      </div>
-    </div><!--/ ft-bottom -->
-
-  </footer>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="js/timeline.min.js"></script>
-
-  <script>
-    timeline(document.querySelectorAll('.timeline'), {
-      forceVerticalMode: 700,
-      mode: 'horizontal',
-      verticalStartPosition: 'left',
-      visibleItems: 4
-    });
-  </script>
-
-  <script>
-    function openCity(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-  </script>
-
-  <script>
-    // search-box open close js code
-    let navbar = document.querySelector(".navbar");
-    //let searchBox = document.querySelector(".search-box .bx-search");
-    // let searchBoxCancel = document.querySelector(".search-box .bx-x");
-
-    //searchBox.addEventListener("click", ()=>{
-
-
-    // sidebar open close js code
-    let navLinks = document.querySelector(".nav-links");
-    let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-    let menuCloseBtn = document.querySelector(".nav-links .bx-x");
-    menuOpenBtn.onclick = function () {
-      navLinks.style.left = "0";
-    }
-    menuCloseBtn.onclick = function () {
-      navLinks.style.left = "-100%";
-    }
-
-
-    // sidebar submenu open close js code
-    $(".htmlcss-arrow").click(function () {
-      $(".htmlCss-sub-menu").removeClass("hidden");
-      $(this).siblings(".htmlCss-sub-menu").toggle("hidden");
-    });
-    $(".more-arrow").click(function () {
-      $(".more-sub-menu").removeClass("hidden");
-      $(this).siblings(".more-sub-menu").toggle("hidden");
-    });
-
-  </script>
-
-  <script>
-    $('#owl-demo-1').owlCarousel({
-      loop: true,
-      autoplay: false,
-      autoplayHoverPause: true,
-      autoplayTimeout: 3000,
-      margin: 0,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 3
-        }
-      }
-    })  
-  </script>
-
-  <script>
-    $('#owl-demo-2').owlCarousel({
-      loop: true,
-      autoplay: false,
-      autoplayHoverPause: true,
-      autoplayTimeout: 3000,
-      margin: 0,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 3
-        }
-      }
-    })  
-  </script>
-
-  <script>
-    $(document).ready(function () {
-      // Intersection Observer setup
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            startCounterAnimation();
-            observer.unobserve(entry.target); // Stop observing once triggered
-          }
-        });
-      });
-
-      // Target the section you want to observe
-      const triggerSection = $('#triggerSection')[0];
-      observer.observe(triggerSection);
-
-      // Function to start the counter animation
-      function startCounterAnimation() {
-        $('.count').each(function () {
-          $(this).prop('Counter', 0).animate({
-            Counter: $(this).text()
-          }, {
-            duration: 4000,
-            easing: 'swing',
-            step: function (now) {
-              $(this).text(Math.ceil(now).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
-            }
-          });
-        });
-      }
-    });
-  </script>
-
-  <!-- <script>        
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+ 
+ <script>
+     timeline(document.querySelectorAll('.timeline'), {
+       forceVerticalMode: 700,
+       mode: 'horizontal',
+       verticalStartPosition: 'left',
+       visibleItems: 4
+     });
+ </script>
+ 
+ <script>
+ function openCity(evt, cityName) {
+   var i, tabcontent, tablinks;
+   tabcontent = document.getElementsByClassName("tabcontent");
+   for (i = 0; i < tabcontent.length; i++) {
+     tabcontent[i].style.display = "none";
+   }
+   tablinks = document.getElementsByClassName("tablinks");
+   for (i = 0; i < tablinks.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" active", "");
+   }
+   document.getElementById(cityName).style.display = "block";
+   evt.currentTarget.className += " active";
+ }
+ </script>
+ 
+ <script>
+   // search-box open close js code
+ let navbar = document.querySelector(".navbar");
+ //let searchBox = document.querySelector(".search-box .bx-search");
+ // let searchBoxCancel = document.querySelector(".search-box .bx-x");
+ 
+ //searchBox.addEventListener("click", ()=>{
+ 
+ 
+ // sidebar open close js code
+ let navLinks = document.querySelector(".nav-links");
+ let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+ let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+ menuOpenBtn.onclick = function() {
+ navLinks.style.left = "0";
+ }
+ menuCloseBtn.onclick = function() {
+ navLinks.style.left = "-100%";
+ }
+ 
+ 
+ // sidebar submenu open close js code
+ $(".htmlcss-arrow").click(function(){
+  $(".htmlCss-sub-menu" ).removeClass("hidden");
+  $(this).siblings( ".htmlCss-sub-menu" ).toggle("hidden");
+ });
+ $(".more-arrow").click(function(){
+   $(".more-sub-menu" ).removeClass("hidden");
+  $(this).siblings( ".more-sub-menu" ).toggle("hidden");
+ });
+ 
+ </script>
+ 
+ <script>
+ $('#owl-demo-1').owlCarousel({
+     loop:true,
+     autoplay:false,
+     autoplayHoverPause:true,
+     autoplayTimeout:3000,
+     margin:0,
+     nav:true,
+     responsive:{
+         0:{
+             items:1
+         },
+         600:{
+             items:3
+         },
+         1000:{
+             items:3
+         }
+     }
+ })  
+ </script>
+ 
+ <script>
+     $('#owl-demo-2').owlCarousel({
+         loop:true,
+         autoplay:false,
+         autoplayHoverPause:true,
+         autoplayTimeout:3000,
+         margin:0,
+         nav:true,
+         responsive:{
+             0:{
+                 items:1
+             },
+             600:{
+                 items:3
+             },
+             1000:{
+                 items:3
+             }
+         }
+     })  
+     </script>
+ 
+ <script>
+     $(document).ready(function() {
+         // Intersection Observer setup
+         const observer = new IntersectionObserver(entries => {
+             entries.forEach(entry => {
+                 if (entry.isIntersecting) {
+                     startCounterAnimation();
+                     observer.unobserve(entry.target); // Stop observing once triggered
+                 }
+             });
+         });
+ 
+         // Target the section you want to observe
+         const triggerSection = $('#triggerSection')[0];
+         observer.observe(triggerSection);
+ 
+         // Function to start the counter animation
+         function startCounterAnimation() {
+             $('.count').each(function () {
+                 $(this).prop('Counter', 0).animate({
+                     Counter: $(this).text()
+                 }, {
+                     duration: 4000,
+                     easing: 'swing',
+                     step: function (now) {
+                         $(this).text(Math.ceil(now).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+                     }
+                 });
+             });
+         }
+     });
+ </script>
+ 
+ <!-- <script>        
  
  
  $('.count').each(function () {
@@ -664,65 +474,65 @@
  });
   
  </script> -->
-
-  <script>
-    $(document).ready(function () {
-      let scroll_link = $('.BackTo');
-
-      //smooth scrolling -----------------------
-      scroll_link.click(function (e) {
-        e.preventDefault();
-        let url = $('body').find($(this).attr('href')).offset().top;
-        $('html, body').animate({
-          scrollTop: url
-        }, 700);
-        $(this).parent().addClass('active');
-        $(this).parent().siblings().removeClass('active');
-        return false;
-      });
+         
+ <script>
+ $(document).ready(function(){
+  let scroll_link = $('.BackTo');
+ 
+   //smooth scrolling -----------------------
+   scroll_link.click(function(e){
+       e.preventDefault();
+       let url = $('body').find($(this).attr('href')).offset().top;
+       $('html, body').animate({
+         scrollTop : url
+       },700);
+       $(this).parent().addClass('active');
+       $(this).parent().siblings().removeClass('active');
+       return false;	
     });
-  </script>
-
-</body>
-
-</html>
-<script type="module">
-  const $cardsWrapper = document.querySelector('#cards');
-  const $cards = document.querySelectorAll('.card__content');
-
-  // Pass the number of cards to the CSS because it needs it to add some extra padding.
-  // Without this extra padding, the last card won’t move with the group but slide over it.
-  const numCards = $cards.length;
-  $cardsWrapper.style.setProperty('--numcards', numCards);
-
-  // Each card should only shrink when it’s at the top.
-  // We can’t use exit on the els for this (as they are sticky)
-  // but can track $cardsWrapper instead.
-  const viewTimeline = new ViewTimeline({
-    subject: $cardsWrapper,
-    axis: 'block',
-  });
-
-  $cards.forEach(($card, index0) => {
-    const index = index0 + 1;
-    const reverseIndex = numCards - index0;
-    const reverseIndex0 = numCards - index;
-
-
-    // Scroll-Linked Animation
-    $card.animate(
-      {
-        // Earlier cards shrink more than later cards
-        //transform: [ `scale(1)`, `scale(${1 - (0.1 * reverseIndex0)}`],
-        opacity: [0.1, 1 - 0.9 * reverseIndex0],
-
-      },
-      {
-        timeline: viewTimeline,
-        fill: 'forwards',
-        rangeStart: `exit-crossing ${CSS.percent(index0 / numCards * 100)}`,
-        rangeEnd: `exit-crossing ${CSS.percent(index / numCards * 100)}`,
-      }
-    );
-  });
-</script>
+ });
+ </script>
+         
+ </body>
+ </html>
+ <script type="module">
+         const $cardsWrapper = document.querySelector('#cards');
+         const $cards = document.querySelectorAll('.card__content');
+ 
+         // Pass the number of cards to the CSS because it needs it to add some extra padding.
+         // Without this extra padding, the last card won’t move with the group but slide over it.
+         const numCards = $cards.length;
+         $cardsWrapper.style.setProperty('--numcards', numCards);
+ 
+         // Each card should only shrink when it’s at the top.
+         // We can’t use exit on the els for this (as they are sticky)
+         // but can track $cardsWrapper instead.
+         const viewTimeline = new ViewTimeline({
+             subject: $cardsWrapper,
+             axis: 'block',
+         });
+ 
+         $cards.forEach(($card, index0) => {
+             const index = index0 + 1;
+             const reverseIndex = numCards - index0;
+             const reverseIndex0 = numCards - index;
+ 
+ 
+             // Scroll-Linked Animation
+             $card.animate(
+                 {
+                     // Earlier cards shrink more than later cards
+                     //transform: [ `scale(1)`, `scale(${1 - (0.1 * reverseIndex0)}`],
+                     opacity: [0.1, 1 - 0.9 * reverseIndex0],
+                     
+                 },
+                 {
+                     timeline: viewTimeline,
+                     fill: 'forwards',
+                     rangeStart: `exit-crossing ${CSS.percent(index0 / numCards * 100)}`,
+                     rangeEnd: `exit-crossing ${CSS.percent(index / numCards * 100)}`,
+                 }
+             );
+         });
+     </script>
+ 
