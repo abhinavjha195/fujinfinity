@@ -6,12 +6,14 @@
     <title>C2C Global Education India</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/glightbox.css">
 	
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/glightbox.css">
 	<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">	
@@ -19,7 +21,8 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/all.min.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/index.js"></script>
     <!--If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
         Slide effect: slide, fade
         Text Align: slide_style_center, slide_style_left, slide_style_right
@@ -81,15 +84,15 @@ jQuery(window).scroll(function() {
                 <li><a href="about-us.html#C2C-india">C2C India</a></li>
               </ul>
             </li>		  
-            <li class="main-menu"><a href="#">Schools In India</a></li>		  
-            <li class="main-menu"><a>Connect With us</a>
+            <li class="main-menu"><a href="#">Schools In India</a></li>	
+            <li class="main-menu"><a>Contact With us</a>
               <ul class="sub-menu">
                 <li><a href="careers.html">Careers</a></li>
                 <li><a href="image-gallery.html">Image Gallery</a></li>
                 <li><a href="global-news-network.html">Global News Network</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="connect-us.html">Connect Us</a></li>
               </ul>
-            </li>	  
+            </li>					
           </ul>
         </div>
 		
@@ -119,9 +122,199 @@ jQuery(window).scroll(function() {
 <section class="mid-inner">
   <div class="container">    
     <div class="row">
-	  <div class="col-sm-12 full-wrap">
-	    
-		<h1 style="text-align: center;font-size: 50px;min-height: 500px;">Under Construction</h1>
+	  <div class="col-sm-12 full-wrap gallery-page">
+
+    <div class="row">
+      <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 class="gallery-title">Gallery</h1>
+        <div class="tab-btn text-center">
+          <button class="btn btn-default filter-button active" id="all" onclick="call(this.id)">All</button>
+          <button class="btn btn-default filter-button" id="campus" onclick="call(this.id)">Campus (with students)</button>
+          <button class="btn btn-default filter-button" id="china_nursery" onclick="call(this.id)">China Nursery School</button>
+          <button class="btn btn-default filter-button" id="high_school" onclick="call(this.id)">High School</button>
+          <button class="btn btn-default filter-button" id="junior_cllg" onclick="call(this.id)">junior college</button>
+          <button class="btn btn-default filter-button" id="junior_school" onclick="call(this.id)">Junior High School</button>
+          <button class="btn btn-default filter-button" id="kindergarten" onclick="call(this.id)">kindergarten</button>
+          <button class="btn btn-default filter-button" id="primary_school" onclick="call(this.id)">Primary School</button>
+        </div>
+      </div>
+        <!--Campus (with students)-->
+      <a href="images/Campus (with students)/campus-1.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-1.jpeg">
+      </a>
+      <a href="images/Campus (with students)/campus-2.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-2.jpeg">
+      </a>
+      <a href="images/Campus (with students)/campus-3.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-3.jpeg">
+      </a>
+      <a href="images/Campus (with students)/campus-4.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-4.jpeg">
+      </a>
+      <a href="images/Campus (with students)/campus-5.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-5.jpeg">
+      </a>
+      <a href="images/Campus (with students)/campus-6.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-6.jpeg">
+      </a>
+      <a href="images/Campus (with students)/campus-7.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-7.jpeg">
+      </a>
+      <a href="images/Campus (with students)/campus-8.jpeg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter campus">
+        <img src="images/Campus (with students)/campus-8.jpeg">
+      </a>
+
+      <!--China Nursery School-->
+
+      <a href="images/China Nursery School/nurserys-1.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-1.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-2.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-2.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-3.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-3.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-4.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-4.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-5.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-5.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-6.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-6.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-7.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-7.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-8.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-8.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-9.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-9.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-10.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-10.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-11.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-11.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-12.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-12.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-13.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-13.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-14.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-14.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-15.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-15.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-16.png"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-16.png">
+      </a>
+      <a href="images/China Nursery School/nurserys-17.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-17.jpg">
+      </a>
+      <a href="images/China Nursery School/nurserys-18.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter china_nursery">
+        <img src="images/China Nursery School/nurserys-18.jpg">
+      </a>
+
+      <!--High School-->
+      
+      <a href="images/High School/highs-1.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter high_school">
+        <img src="images/High School/highs-1.jpg">
+      </a>
+      <a href="images/High School/highs-2.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter high_school">
+        <img src="images/High School/highs-2.jpg">
+      </a>
+      <a href="images/High School/highs-3.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter high_school">
+        <img src="images/High School/highs-3.jpg">
+      </a>
+      
+      <!--junior college-->
+      
+      <a href="images/junior college/juniorcllg-1.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter junior_cllg">
+        <img src="images/junior college/juniorcllg-1.jpg">
+      </a>
+      <a href="images/junior college/juniorcllg-2.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter junior_cllg">
+        <img src="images/junior college/juniorcllg-2.jpg">
+      </a>
+
+      <!--junior_school-->
+
+      <a href="images/Junior High School/junior-1.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter junior_school">
+        <img src="images/Junior High School/junior-1.jpg">
+      </a>
+      <a href="images/Junior High School/junior-2.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter junior_school">
+        <img src="images/Junior High School/junior-2.jpg">
+      </a>
+
+      <!--kindergarten-->
+
+      <a href="images/kindergarten/kinder-1.JPG"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter kindergarten">
+        <img src="images/kindergarten/kinder-1.JPG">
+      </a>
+      <a href="images/kindergarten/kinder-2.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter kindergarten">
+        <img src="images/kindergarten/kinder-2.jpg">
+      </a>
+      <a href="images/kindergarten/kinder-3.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter kindergarten">
+        <img src="images/kindergarten/kinder-3.jpg">
+      </a>
+
+      <!--Primary School-->
+
+      <a href="images/Primary School/primary school 1.JPG"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter primary_school">
+        <img src="images/Primary School/primary school 1.JPG">
+      </a>
+      <a href="images/Primary School/primary school 2.JPG"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter primary_school">
+        <img src="images/Primary School/primary school 2.JPG">
+      </a>
+      
+      <a href="images/Campus (with students)/all-1.jpg"
+        class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter all">
+        <img src="images/Campus (with students)/all-2.jpg">
+      </a>
+    </div>
 	  
 	  </div><!--/ full-wrap -->
     </div><!--/ row -->
@@ -155,11 +348,11 @@ jQuery(window).scroll(function() {
              <div class="wg-1">
                <h4>Quick Links</h4>
                <ul>
-                 <li><a href="#">About Us</a></li>
+                 <li><a href="about-us.html">About Us</a></li>
                  <li><a href="#">Our Locations</a></li>
                  <li><a href="#">Achievements</a></li>
                  <li><a href="careers.html">Careers</a></li>
-                 <li><a href="#">Contact Us</a></li>
+                 <li><a href="contact-us.html">Contact Us</a></li>
                </ul>
              </div><!--/ wg-1 -->
            </div><!--/ col-sm --> 
@@ -229,6 +422,8 @@ jQuery(window).scroll(function() {
  <script src="js/bootstrap.bundle.min.js"></script>
  <script src="js/owl.carousel.min.js"></script>
  <script type="text/javascript" src="js/timeline.min.js"></script>
+ <script src="js/glightbox.min.js"></script>
+  <script src="js/index.js"></script>
  
  <script>
 $(document).on('click', 'a[href^="#"]', function (event) {
