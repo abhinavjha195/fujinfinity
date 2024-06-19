@@ -260,7 +260,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .about-philosophy-sec::before{content: "";width: 100%;height: 100%;background-color: #000;position: absolute;top: 0;left: 0;opacity: 0.65;}
   .about-philosophy-sec .philosophy-head::after {content: "";width: 1.5px;height: 100%;position: absolute;background-color: #ffffff2b;top: 0%;right: 0;}
   .about-philosophy-sec .philosophy-head:last-child::after{display: none;}
-  .about-philosophy-sec h2{color: #ffffff;text-align: center;margin-bottom: 15px;padding-bottom: 15px;position: relative;}
+  .about-philosophy-sec h2{color: #ffffff;text-align: center;margin-bottom: 15px;padding-bottom: 15px;position: relative;font-size:30px;}
   .about-philosophy-sec h2::after {content: "";width: 34%;height: 1px;position: absolute;background: #00a0c8;left: 0;bottom: 0;right: 0;margin: 0 auto;}
   .about-philosophy-sec p{text-align: justify;margin: 0 0 10px;color:#fff;}
   .about-philosophy-sec .philosophy-head ul{padding-left: 0px ;text-align: center;}
@@ -269,7 +269,7 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .about-philosophy-sec .philosophy-info {padding: 0 28px;}   
   .about-philosophy-sec .philosophy-head {position: relative;text-align: center;padding: 70px 0px 60px;}
   .about-philosophy-sec .philosophy-head img{width: 120px;border: 2px dashed #fff;border-radius: 50%;padding: 3px;rotate: 0deg;transition: all 0.8s ease;}
-  .about-philosophy-sec .right span{display: block;margin-bottom:10px;font-size: 24px;}
+  .about-philosophy-sec .right span{display: block;margin-bottom:10px;font-size: 22px;}
   .about-philosophy-sec .left span{display: block;margin-bottom:10px;}
   .about-philosophy-sec .philosophy-head:hover img{rotate: 360deg;transition: all 0.8s ease;}
 
