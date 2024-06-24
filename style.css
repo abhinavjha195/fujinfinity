@@ -131,12 +131,12 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .header nav .navbar .nav-links{height: 100%; margin: 0 0 0 auto;}
   .header nav .navbar .links{display: flex; padding: 0; margin: 0;}
   .header nav .navbar .links li{position: relative; display: flex; align-items: center; justify-content: space-between; list-style: none; font-size: 14px; text-transform: capitalize; margin: 0 10px;}
-  .header nav .navbar .links li a{padding: 15px 0; display: block; text-decoration: none; white-space: nowrap; color: #000;}
+  .header nav .navbar .links li a{padding: 36px 0; display: block; text-decoration: none; white-space: nowrap; color: #000;}
   .header nav .navbar .links > li > a:hover, .header nav .navbar .links > li.current-menu-item > a{color: #00a0c8;}
 
   .header .links li:hover .htmlcss-arrow, .header .links li:hover .js-arrow{transform: rotate(180deg);} 
   .header nav .navbar .links li .arrow{width: 16px; line-height: 52px; text-align: center; display: inline-block; color: #000; transition: all 0.3s ease; margin: 2px 0 0 5px;}
-  .header nav .navbar .links li .sub-menu{border: 1px solid #dddddd6b; box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); position: absolute; top: 100%; left: 0; background: #fff; box-shadow: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: none; z-index: 2; padding: 0;min-width: 280px;} 
+  .header nav .navbar .links li .sub-menu{border: 1px solid #dddddd6b; box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); position: absolute; top: 90%; left: 0; background: #fff; box-shadow: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: none; z-index: 2; padding: 0;min-width: 370px;} 
   .header nav .navbar .links li:hover .htmlCss-sub-menu, .header nav .navbar .links li:hover .js-sub-menu{ display: block; } 
   .header .navbar .links li .sub-menu li{padding:0 0px; margin:0; border-bottom: 1px solid #d5d5d5;} 
   .header .navbar .links li .sub-menu a{color: #4f4f4f; padding: 12px 15px; display: block;transition: all 0.5s ease;}  
@@ -244,13 +244,13 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   
   .philosophy-sec{position: relative;padding: 100px 0 110px; background: #000;}
   .philosophy-sec h2{color: #fff;text-align: center;}
-  .philosophy-sec p span{display: block;text-align: center;font-size: 24px;font-weight: 800;color: #00ccff;padding: 15px 0;}
+  .philosophy-sec p span{display: block;text-align: center;font-size: 24px;font-weight: 800;color: #00ccff;padding: 15px 0;letter-spacing: 0.8px;}
   .philosophy-sec p{text-align: center;}
   .philosophy-sec h3{text-align: center;color: #fff;}
-  .philosophy-sec h3 span{color:#00ccff ;}
+  .philosophy-sec h3 span{color:#00ccff;}
   .philosophy-sec .philosophy-left .head-para, .philosophy-sec .philosophy-right .head-para{padding: 0 50px;font-weight: 500;margin-bottom: 20px;}
   .philosophy-sec .philosophy-left, .philosophy-sec .philosophy-right{text-align: center;padding: 30px 15px;}
-  .philosophy-sec .philosophy-left p, .philosophy-sec .philosophy-right p{text-align: center;line-height:26px;font-size: 16px;font-weight: 600;color: #fff;} 
+  .philosophy-sec .philosophy-left p, .philosophy-sec .philosophy-right p{text-align: center;line-height:26px;font-size: 16px;font-weight: 600;color: #fff;letter-spacing: 0.8px;} 
   .philosophy-sec .philosophy-left::after{content:"";height: 100%;width: 1px;background-color: transparent;position: absolute;top: 0;right: -15px;background-image: linear-gradient(358deg, #00a0c8 0%, #09D0BC 100%);}
   .philosophy-sec .philosophy-left, .about-stand-sec .philosophy-right{position: relative;}
   .philosophy-sec .blue-highlight{font-size: 16px;display: inline;}
@@ -260,16 +260,16 @@ h5{color:#09d0bc; font-size: 24px; font-family: 'MonaSansExpandedMedium'; text-t
   .about-philosophy-sec::before{content: "";width: 100%;height: 100%;background-color: #000;position: absolute;top: 0;left: 0;opacity: 0.65;}
   .about-philosophy-sec .philosophy-head::after {content: "";width: 1.5px;height: 100%;position: absolute;background-color: #ffffff2b;top: 0%;right: 0;}
   .about-philosophy-sec .philosophy-head:last-child::after{display: none;}
-  .about-philosophy-sec h2{color: #ffffff;text-align: center;margin-bottom: 15px;padding-bottom: 15px;position: relative;font-size:30px;}
+  .about-philosophy-sec h2{color: #ffffff;text-align: center;margin-bottom: 15px;padding-bottom: 15px;position: relative;font-size: 30px;}
   .about-philosophy-sec h2::after {content: "";width: 34%;height: 1px;position: absolute;background: #00a0c8;left: 0;bottom: 0;right: 0;margin: 0 auto;}
-  .about-philosophy-sec p{text-align: justify;margin: 0 0 10px;color:#fff;}
+  .about-philosophy-sec p{text-align: left;margin: 0 0 10px;color:#fff;}
   .about-philosophy-sec .philosophy-head ul{padding-left: 0px ;text-align: center;}
   .about-philosophy-sec .philosophy-head ul li{ list-style: none;position: relative;display: inline-block;padding: 6px 0 6px 30px;text-align: left;margin-bottom: 3px;color: #fff;}
   .about-philosophy-sec .philosophy-head ul li::before {  content: '';background-image: url(images/hand-fan.png);position: absolute;width: 20px;height: 20px;background-size: cover;background-repeat: no-repeat;left: 0;top: 8px;filter: invert(1);}
-  .about-philosophy-sec .philosophy-info {padding: 0 28px;}   
+  .about-philosophy-sec .philosophy-info {padding: 0 20px;}   
   .about-philosophy-sec .philosophy-head {position: relative;text-align: center;padding: 70px 0px 60px;}
   .about-philosophy-sec .philosophy-head img{width: 120px;border: 2px dashed #fff;border-radius: 50%;padding: 3px;rotate: 0deg;transition: all 0.8s ease;}
-  .about-philosophy-sec .right span{display: block;margin-bottom:10px;font-size: 22px;}
+  .about-philosophy-sec .right span{display: block;margin-bottom:10px;font-size: 24px;}
   .about-philosophy-sec .left span{display: block;margin-bottom:10px;}
   .about-philosophy-sec .philosophy-head:hover img{rotate: 360deg;transition: all 0.8s ease;}
 
