@@ -953,7 +953,7 @@ ul li.blue-highlight{color: #00a0c8;list-style: none;}
 
   .gallery-page .gallery{position: relative;}
   .gallery-page .gallery .tab-btn{display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;margin-bottom:30px;}
-  .gallery-page .gallery .tab-btn .btn {padding: 10px 10px;border: 1px solid #00a0c8;width: 19.4%;font-size: 13px;min-height: 80px;margin-bottom: 10px;}
+  .gallery-page .gallery .tab-btn .btn {padding: 10px 10px;border: 1px solid #00a0c8;width: 16%;font-size: 13px;min-height: 80px;margin-bottom: 10px;}
   .gallery-page .gallery .tab-btn .btn:hover{border: 1px solid #09d0bc;}
   .gallery-page .filter {padding: 10px !important;height: 310px !important;display: block;margin-bottom: 15px;overflow: hidden;}
   .gallery-page .filter > img{width: 100%;height: 310px !important ;object-fit: cover;}
